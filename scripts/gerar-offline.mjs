@@ -7,7 +7,7 @@ const figuras = JSON.parse(ler('figuras.json')).map((f) => ({
   ...f, foto: { ...f.foto, arquivo: 'data:image/jpeg;base64,' + readFileSync(new URL(f.foto.arquivo, raiz)).toString('base64') },
 }));
 const dados = JSON.stringify({ figuras, perguntas: JSON.parse(ler('perguntas.json')) });
-const js = (ler('js/calculo.js') + '\n' + ler('js/app.js'))
+const js = (ler('js/config.js') + '\n' + ler('js/calculo.js') + '\n' + ler('js/app.js'))
   .replace(/^import .*$/gm, '').replace(/^export /gm, '');
 const html = ler('index.html')
   .replace('<link rel="stylesheet" href="css/estilo.css">', `<style>${ler('css/estilo.css')}</style>`)

@@ -1,8 +1,8 @@
 // Guarda o site no aparelho para abrir sem internet depois da primeira visita.
 // Ao mudar qualquer arquivo, troque a versão abaixo.
-const VERSAO = 'passaporte-v3';
+const VERSAO = 'passaporte-v4';
 const ARQUIVOS = [
-  './', 'index.html', 'css/estilo.css', 'js/app.js', 'js/calculo.js',
+  './', 'index.html', 'css/estilo.css', 'js/app.js', 'js/calculo.js', 'js/config.js',
   'figuras.json', 'perguntas.json', 'manifest.webmanifest',
   "fotos/annan.jpg",
   "fotos/aquino.jpg",
@@ -48,6 +48,6 @@ self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSAO).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
 });
 self.addEventListener('fetch', (e) => {
-  if (e.request.method !== 'GET') return;
+  if (e.request.method !== 'GET' || new URL(e.request.url).origin !== location.origin) return;
   e.respondWith(caches.match(e.request, { ignoreSearch: true }).then((r) => r || fetch(e.request)));
 });

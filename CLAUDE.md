@@ -132,13 +132,15 @@ Verificação obrigatória (script):
 - URLs das fotos respondem.
 
 ## Resultado: salvar, compartilhar e visão da turma
-- NENHUM dado pessoal é coletado: sem nome, sem login, sem e-mail, sem analytics, sem cookies de terceiros, sem servidor.
-- O resultado vira um link próprio só com o id da figura (ex.: `.../#r=mandela`). O aluno pode compartilhar o link ou tirar print. O link não contém as respostas.
-- O progresso do quiz fica salvo só no próprio celular (localStorage), para recarregar a página sem perder as respostas. Botão "Refazer" apaga tudo.
-- Visão da turma (sem coleta): página `facilitador.html`, usada só no aparelho do facilitador, com:
-  - contador manual (o facilitador toca na figura quando cada aluno fala o resultado; fica salvo só naquele aparelho);
-  - mural das 30 figuras agrupadas por categoria, para projetar;
-  - roteiro de perguntas para o debate após o teste.
+- NENHUM dado pessoal é coletado: sem nome, login, e-mail, respostas ou cookies.
+- O resultado vira um link próprio só com o id da figura (ex.: `.../#r=mandela`).
+- O progresso do quiz fica salvo só no celular do aluno (localStorage). "Refazer" apaga.
+- **Contagem anônima (mudança aprovada pelo facilitador em 2026-10-07; antes era "sem analytics"):** GoatCounter, sem cookies e sem IP armazenado. O código do site fica em `js/config.js` (vazio = desligado). Conta:
+  - visitas (`/`) e entradas por link compartilhado (`/link-compartilhado`);
+  - cada teste terminado: `/resultado/{TURMA}/{id-da-figura}`.
+  O aviso de contagem anônima aparece na capa e em "Como funciona". A versão offline nunca conta.
+- **Turma ao vivo** (`facilitador.html`): "Nova turma" gera um código de 4 letras e um QR com `?turma=CÓDIGO`. A página lê a cada 20 s os contadores públicos do GoatCounter (`/counter/{caminho}.json`, exige a opção "Allow adding visitor counts" ligada) e mostra o placar. Sem `?turma`, a turma é `geral`. Toque na figura = ajuste manual (plano B sem internet).
+- Também no facilitador: mural das figuras e roteiro de debate.
 
 ## Acessibilidade
 - Contraste mínimo WCAG AA; fonte base ≥ 16px; botões ≥ 48px de altura.

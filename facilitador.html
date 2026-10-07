@@ -27,6 +27,17 @@
   .ranking li { margin-bottom: 4px; }
   .linha-acoes { display: flex; gap: 8px; flex-wrap: wrap; }
   .linha-acoes .btn { width: auto; }
+  .turma-caixa { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; padding: 16px; border-radius: var(--raio); background: rgba(255,255,255,.06); margin: 14px 0; }
+  .codigo { font-size: 44px; font-weight: 900; letter-spacing: .15em; color: var(--ambar); margin: 0; }
+  .qr { background: #fff; padding: 10px; border-radius: 12px; line-height: 0; }
+  .qr:empty { display: none; }
+  .placar { font-size: 22px; } .placar strong { font-size: 40px; color: var(--ambar); }
+  .fig.novo { animation: surgir .6s; border-color: var(--ambar); }
+  body.projetando main > *:not(#contador), body.projetando #contador > *:not(.turma-caixa) { display: none; }
+  body.projetando .turma-caixa { grid-template-columns: 1fr; text-align: center; }
+  body.projetando .qr img, body.projetando .qr canvas { width: min(80vw, 60vh) !important; height: auto !important; }
+  body.projetando .codigo { font-size: 72px; }
+  @media (max-width: 520px) { .turma-caixa { grid-template-columns: 1fr; } }
   .debate li { margin-bottom: 12px; font-size: 19px; }
   h2.cat { margin-top: 28px; }
 </style>
@@ -34,19 +45,29 @@
 <body>
 <main>
   <h1>Passaporte Mundial · Facilitador</h1>
-  <p class="miudo">Use só no seu aparelho. Nada sai dele: a contagem fica salva neste navegador.</p>
+  <p class="miudo">Use no seu aparelho. Nenhum dado pessoal dos alunos é coletado: só a contagem anônima de resultados da turma.</p>
   <div class="abas" role="tablist">
-    <button class="btn" role="tab" data-aba="contador" aria-selected="true">Contador da turma</button>
+    <button class="btn" role="tab" data-aba="contador" aria-selected="true">Turma ao vivo</button>
     <button class="btn" role="tab" data-aba="mural" aria-selected="false">Mural das figuras</button>
     <button class="btn" role="tab" data-aba="debate" aria-selected="false">Roteiro de debate</button>
   </div>
 
   <section id="contador" role="tabpanel">
-    <p>Quando cada aluno disser o resultado, toque na figura. Toque segurando (ou com o botão direito) para tirar um.</p>
-    <div class="linha-acoes">
-      <button class="btn" id="zerar">Zerar contagem</button>
+    <div class="turma-caixa">
+      <div>
+        <p class="miudo">Turma atual</p>
+        <p class="codigo" id="codigo">—</p>
+        <p class="miudo" id="status">Crie uma turma para começar.</p>
+        <div class="linha-acoes">
+          <button class="btn principal" id="nova-turma">Nova turma</button>
+          <button class="btn" id="projetar">Projetar QR</button>
+        </div>
+        <p class="miudo" id="link-turma"></p>
+      </div>
+      <div id="qr-turma" class="qr" aria-label="QR code da turma"></div>
     </div>
-    <p><strong id="total">0</strong> resultados registrados.</p>
+    <p class="placar"><strong id="total">0</strong> alunos terminaram o teste</p>
+    <p class="miudo">Os resultados chegam sozinhos, com uns segundos de atraso. Sem internet? Toque na figura para somar à mão (toque segurando para tirar).</p>
     <div class="grade" id="grade-contador"></div>
     <h2>Resumo da turma</h2>
     <ol class="ranking" id="ranking"></ol>
@@ -70,15 +91,24 @@
   </section>
 </main>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script type="module">
-  const CHAVE = 'passaporte:facilitador:v1';
+  import { GOATCOUNTER } from './js/config.js';
+  const CHAVE = 'passaporte:facilitador:v2';
   const CATS = ['Líder de Estado', 'Diplomacia', 'Ativismo e resistência'];
+  const BASE = new URL('./', location.href).href;
   const figuras = window.DADOS?.figuras ?? await fetch('figuras.json').then((r) => r.json());
-  let cont = {};
-  try { cont = JSON.parse(localStorage.getItem(CHAVE)) ?? {}; } catch {}
-  const salvar = () => { try { localStorage.setItem(CHAVE, JSON.stringify(cont)); } catch {} };
+  const $ = (id) => document.getElementById(id);
   const el = (t, p = {}, ...f) => { const e = Object.assign(document.createElement(t), p); e.append(...f); return e; };
 
+  // estado: turma atual, contagens automáticas (GoatCounter) e ajustes manuais
+  let st = { turma: null, manual: {} };
+  try { st = { ...st, ...JSON.parse(localStorage.getItem(CHAVE)) }; } catch {}
+  const salvar = () => { try { localStorage.setItem(CHAVE, JSON.stringify(st)); } catch {} };
+  let auto = {};
+  const total = (id) => (auto[id] || 0) + (st.manual[id] || 0);
+
+  const contadores = {};
   function cartao(f, comContador) {
     const b = el('button', { className: 'fig', type: 'button' },
       el('img', { src: f.foto.arquivo, alt: '', loading: 'lazy' }),
@@ -86,40 +116,84 @@
     if (comContador) {
       const n = el('span', { className: 'n' });
       b.append(n);
-      const atualiza = () => { n.textContent = cont[f.id] || ''; b.ariaLabel = `${f.nome}: ${cont[f.id] || 0}`; };
-      b.onclick = () => { cont[f.id] = (cont[f.id] || 0) + 1; salvar(); atualiza(); resumo(); };
-      b.oncontextmenu = (e) => { e.preventDefault(); if (cont[f.id]) cont[f.id]--; salvar(); atualiza(); resumo(); };
-      atualiza();
+      contadores[f.id] = { b, n };
+      b.onclick = () => { st.manual[f.id] = (st.manual[f.id] || 0) + 1; salvar(); atualizar(); };
+      b.oncontextmenu = (e) => { e.preventDefault(); if (st.manual[f.id]) st.manual[f.id]--; salvar(); atualizar(); };
     }
     return b;
   }
 
-  function resumo() {
-    const total = Object.values(cont).reduce((s, x) => s + x, 0);
-    document.getElementById('total').textContent = total;
-    const top = figuras.filter((f) => cont[f.id]).sort((a, b) => cont[b.id] - cont[a.id]);
-    document.getElementById('ranking').replaceChildren(...top.map((f) => el('li', { textContent: `${f.nome} (${f.titulo}): ${cont[f.id]}` })));
-    const porCat = CATS.map((c) => `${c}: ${figuras.filter((f) => f.categoria === c).reduce((s, f) => s + (cont[f.id] || 0), 0)}`);
-    document.getElementById('resumo-cat').textContent = total ? porCat.join(' · ') : '';
+  const anterior = {};
+  function atualizar() {
+    for (const f of figuras) {
+      const { b, n } = contadores[f.id], v = total(f.id);
+      n.textContent = v || '';
+      b.ariaLabel = `${f.nome}: ${v}`;
+      if (anterior[f.id] !== undefined && v > anterior[f.id]) { b.classList.remove('novo'); void b.offsetWidth; b.classList.add('novo'); }
+      anterior[f.id] = v;
+    }
+    const soma = figuras.reduce((s, f) => s + total(f.id), 0);
+    $('total').textContent = soma;
+    const top = figuras.filter((f) => total(f.id)).sort((a, b) => total(b.id) - total(a.id));
+    $('ranking').replaceChildren(...top.map((f) => el('li', { textContent: `${f.nome} (${f.titulo}): ${total(f.id)}` })));
+    $('resumo-cat').textContent = soma ? CATS.map((c) => `${c}: ${figuras.filter((f) => f.categoria === c).reduce((s, f) => s + total(f.id), 0)}`).join(' · ') : '';
   }
 
-  document.getElementById('grade-contador').append(...figuras.map((f) => cartao(f, true)));
-  document.getElementById('mural').append(...CATS.flatMap((c) => [
+  // busca as contagens públicas da turma no GoatCounter
+  async function buscar() {
+    if (!GOATCOUNTER || !st.turma) return;
+    const res = await Promise.all(figuras.map(async (f) => {
+      const caminho = encodeURIComponent(`/resultado/${st.turma}/${f.id}`);
+      try {
+        const r = await fetch(`https://${GOATCOUNTER}.goatcounter.com/counter/${caminho}.json`, { cache: 'no-store' });
+        if (r.status === 404) return [f.id, 0];
+        if (!r.ok) throw 0;
+        return [f.id, parseInt(String((await r.json()).count).replace(/\D/g, ''), 10) || 0];
+      } catch { return [f.id, null]; }
+    }));
+    const falhas = res.filter(([, v]) => v === null).length;
+    for (const [id, v] of res) if (v !== null) auto[id] = v;
+    $('status').textContent = falhas === res.length
+      ? 'Sem conexão com o contador. Use o modo manual tocando nas figuras.'
+      : `Atualizado às ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' })}. Atualiza sozinho a cada 20 segundos.`;
+    atualizar();
+  }
+
+  function mostrarTurma() {
+    $('codigo').textContent = st.turma ?? '—';
+    const link = st.turma ? `${BASE}?turma=${st.turma}` : '';
+    $('link-turma').textContent = link;
+    const qr = $('qr-turma'); qr.replaceChildren();
+    if (link && window.QRCode) new QRCode(qr, { text: link, width: 220, height: 220, colorDark: '#0b1f3a', colorLight: '#ffffff' });
+    if (!GOATCOUNTER) $('status').textContent = 'Contagem automática desligada (falta configurar o GoatCounter). Use o modo manual.';
+  }
+
+  $('nova-turma').onclick = () => {
+    if (st.turma && !confirm('Começar uma turma nova? A contagem atual será zerada nesta tela.')) return;
+    const letras = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+    st = { turma: Array.from({ length: 4 }, () => letras[Math.floor(Math.random() * letras.length)]).join(''), manual: {} };
+    auto = {}; salvar(); mostrarTurma(); atualizar(); buscar();
+  };
+  $('projetar').onclick = () => {
+    document.body.classList.toggle('projetando');
+    $('projetar').textContent = document.body.classList.contains('projetando') ? 'Sair da projeção' : 'Projetar QR';
+  };
+
+  $('grade-contador').append(...figuras.map((f) => cartao(f, true)));
+  $('mural').append(...CATS.flatMap((c) => [
     el('h2', { className: 'cat', textContent: c }),
     el('div', { className: 'grade' }, ...figuras.filter((f) => f.categoria === c).map((f) => cartao(f, false))),
   ]));
-  document.getElementById('zerar').onclick = () => {
-    if (confirm('Zerar a contagem da turma?')) { cont = {}; salvar(); location.reload(); }
-  };
   for (const aba of document.querySelectorAll('[data-aba]')) {
     aba.onclick = () => {
       for (const a of document.querySelectorAll('[data-aba]')) {
         a.setAttribute('aria-selected', String(a === aba));
-        document.getElementById(a.dataset.aba).hidden = a !== aba;
+        $(a.dataset.aba).hidden = a !== aba;
       }
     };
   }
-  resumo();
+  mostrarTurma(); atualizar(); buscar();
+  setInterval(buscar, 20000);
 </script>
 </body>
 </html>

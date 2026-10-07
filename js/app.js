@@ -1,4 +1,5 @@
 import { TRACOS, NOMES_TRACOS, ranking, tracosEmComum, perfilDoAluno, combinacaoRara, perfilParaExibir } from './calculo.js';
+import { GOATCOUNTER } from './config.js';
 
 const CHAVE = 'passaporte:v1';
 const CATEGORIAS = ['Líder de Estado', 'Diplomacia', 'Ativismo e resistência'];
@@ -103,7 +104,34 @@ function calcularEMostrar(festa) {
   resultado = { aluno, ranking: ranking(aluno, figuras) };
   history.replaceState(null, '', `#r=${resultado.ranking[0].figura.id}`);
   renderResultado(resultado.ranking[0].figura, true);
-  if (festa) setTimeout(confete, calmo ? 0 : 900);
+  if (festa) {
+    setTimeout(confete, calmo ? 0 : 900);
+    contar(`/resultado/${turma}/${resultado.ranking[0].figura.id}`, resultado.ranking[0].figura.nome);
+  }
+}
+
+// ---------- contagem anônima (GoatCounter) ----------
+// Envia só o caminho: turma + figura. Nenhum dado pessoal, sem cookies.
+const turma = (() => {
+  const daUrl = new URLSearchParams(location.search).get('turma')?.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8);
+  try {
+    if (daUrl) localStorage.setItem('passaporte:turma', daUrl);
+    return daUrl || localStorage.getItem('passaporte:turma') || 'geral';
+  } catch { return daUrl || 'geral'; }
+})();
+const filaContagem = [];
+function contar(path, title) {
+  if (!GOATCOUNTER || window.DADOS) return;
+  if (window.goatcounter?.count) window.goatcounter.count({ path, title });
+  else filaContagem.push({ path, title });
+}
+if (GOATCOUNTER && !window.DADOS) {
+  window.goatcounter = { no_onload: true };
+  const sc = el('script', { async: true, src: '//gc.zgo.at/count.js' });
+  sc.dataset.goatcounter = `https://${GOATCOUNTER}.goatcounter.com/count`;
+  sc.onload = () => { for (const c of filaContagem.splice(0)) window.goatcounter.count(c); };
+  document.head.append(sc);
+  contar(location.hash.startsWith('#r=') ? '/link-compartilhado' : '/', 'Visita');
 }
 
 function renderResultado(f, completo) {
