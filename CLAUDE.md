@@ -171,6 +171,8 @@ Nenhuma. Todas fechadas em 2026-10-07 (6 e 7 decididas por Claude a pedido do fa
 - Em 2026-10-07 o facilitador pediu para implementar tudo (perguntas e telas) sem esperar a revisão. As telas leem `figuras.json`, então ajustes nos dados não exigem retrabalho.
 - Arquivos: `figuras.json` (fonte dos dados), `fotos/` (30 JPG comprimidos, ~700 KB no total), `js/calculo.js`, `revisao.html` (gerada), `scripts/verificar.mjs`, `scripts/gerar-revisao.mjs`, `scripts/buscar-fotos.mjs`, `dados/fotos-meta.json`.
 - Depois de editar `figuras.json`: `node scripts/verificar.mjs` e `node scripts/gerar-revisao.mjs`.
-- Perguntas e telas implementadas em 2026-10-07. Falta: publicar no GitHub Pages e gerar o QR code.
+- Perguntas e telas implementadas em 2026-10-07.
+- PUBLICADO em 2026-10-07: https://gustavogoudim.github.io/passaporte-mundial/ (repo github.com/gustavogoudim/passaporte-mundial, Pages na branch main). Para atualizar: commit + `git push`; trocar `VERSAO` em `sw.js` a cada mudança.
+- QR code: `qrcode.pdf` (cartaz A4), `qrcode.png`, `qrcode.html`.
 - Frase do Rebouças ("Quem possui a terra possui o homem") marcada para o facilitador decidir: é hoje associada a movimentos de reforma agrária.
 - Zumbi não tem frase (não há falas registradas); o card mostra no lugar a nota sobre o 20 de novembro.
