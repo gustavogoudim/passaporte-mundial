@@ -1,0 +1,674 @@
+[
+  {
+    "id": "p01",
+    "foco": "estilo",
+    "tipo": "cotidiano",
+    "texto": "Sua turma não consegue decidir o destino da excursão, e a discussão está esquentando. Você...",
+    "alternativas": [
+      {
+        "texto": "Chama todo mundo para conversar até chegar num acordo.",
+        "pontos": {
+          "dialogo": 2,
+          "paz": 1
+        }
+      },
+      {
+        "texto": "Pesquisa preços e distâncias e apresenta as opções organizadas.",
+        "pontos": {
+          "estrategia": 2,
+          "liberdade": 1
+        }
+      },
+      {
+        "texto": "Repara em quem não está conseguindo falar e puxa essa pessoa para a conversa.",
+        "pontos": {
+          "empatia": 2,
+          "desenvolvimento": 1
+        }
+      },
+      {
+        "texto": "Defende a sua ideia com bons argumentos e não recua fácil.",
+        "pontos": {
+          "firmeza": 2,
+          "igualdade": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p02",
+    "foco": "causa",
+    "tipo": "cotidiano",
+    "texto": "Você ganhou 1 minuto ao vivo num programa visto pelo Brasil inteiro. Sobre o que você fala?",
+    "alternativas": [
+      {
+        "texto": "Sobre tecnologia e empregos para o futuro do país.",
+        "pontos": {
+          "desenvolvimento": 2,
+          "empatia": 1
+        }
+      },
+      {
+        "texto": "Sobre a violência que assusta tanta gente e como diminuí-la.",
+        "pontos": {
+          "paz": 2,
+          "dialogo": 1
+        }
+      },
+      {
+        "texto": "Sobre a importância de todo mundo poder dizer o que pensa e participar das decisões.",
+        "pontos": {
+          "liberdade": 2,
+          "estrategia": 1
+        }
+      },
+      {
+        "texto": "Sobre jovens talentosos que não têm as mesmas chances que os outros.",
+        "pontos": {
+          "igualdade": 2,
+          "firmeza": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p03",
+    "foco": "estilo",
+    "tipo": "cotidiano",
+    "texto": "No trabalho em grupo, um colega não está fazendo a parte dele. Você...",
+    "alternativas": [
+      {
+        "texto": "Diz com clareza que todo mundo precisa fazer a sua parte.",
+        "pontos": {
+          "firmeza": 2,
+          "liberdade": 1
+        }
+      },
+      {
+        "texto": "Conversa com ele em particular para entender o que está acontecendo.",
+        "pontos": {
+          "empatia": 2,
+          "paz": 1
+        }
+      },
+      {
+        "texto": "Propõe que o grupo converse e combine as regras juntos.",
+        "pontos": {
+          "dialogo": 2,
+          "igualdade": 1
+        }
+      },
+      {
+        "texto": "Redivide as tarefas para o trabalho sair no prazo.",
+        "pontos": {
+          "estrategia": 2,
+          "desenvolvimento": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p04",
+    "foco": "quemResolve",
+    "tipo": "cotidiano",
+    "texto": "A praça do seu bairro está abandonada. Quem deveria resolver?",
+    "alternativas": [
+      {
+        "texto": "A prefeitura: cuidar das praças é obrigação dela.",
+        "posicao": 0
+      },
+      {
+        "texto": "A prefeitura, ouvindo o que os moradores querem.",
+        "posicao": 1.5
+      },
+      {
+        "texto": "Os moradores se organizam e pedem apoio à prefeitura.",
+        "posicao": 3.5
+      },
+      {
+        "texto": "Os próprios moradores, com mutirão e associação de bairro.",
+        "posicao": 5
+      }
+    ]
+  },
+  {
+    "id": "p05",
+    "foco": "causa",
+    "tipo": "cotidiano",
+    "texto": "Se você pudesse resolver um problema do seu bairro, qual seria?",
+    "alternativas": [
+      {
+        "texto": "Garantir que todo mundo tenha o mesmo acesso a saúde e escola de qualidade.",
+        "pontos": {
+          "igualdade": 2,
+          "estrategia": 1
+        }
+      },
+      {
+        "texto": "Trazer emprego, transporte e saneamento.",
+        "pontos": {
+          "desenvolvimento": 2,
+          "dialogo": 1
+        }
+      },
+      {
+        "texto": "Acabar com a violência e as brigas.",
+        "pontos": {
+          "paz": 2,
+          "firmeza": 1
+        }
+      },
+      {
+        "texto": "Fazer com que os moradores sejam ouvidos nas decisões.",
+        "pontos": {
+          "liberdade": 2,
+          "empatia": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p06",
+    "foco": "estilo",
+    "tipo": "cotidiano",
+    "texto": "Os alunos querem mudar uma regra da escola sobre o uso do celular no intervalo. Você...",
+    "alternativas": [
+      {
+        "texto": "Faz uma pesquisa com a turma e leva os números para a reunião.",
+        "pontos": {
+          "estrategia": 2,
+          "paz": 1
+        }
+      },
+      {
+        "texto": "Pede uma reunião com a direção para ouvir os motivos dela e propor um meio-termo.",
+        "pontos": {
+          "dialogo": 2,
+          "liberdade": 1
+        }
+      },
+      {
+        "texto": "Junta assinaturas e insiste até a proposta ser discutida.",
+        "pontos": {
+          "firmeza": 2,
+          "desenvolvimento": 1
+        }
+      },
+      {
+        "texto": "Pergunta primeiro como a regra afeta quem mais depende do celular.",
+        "pontos": {
+          "empatia": 2,
+          "igualdade": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p07",
+    "foco": "causa",
+    "tipo": "cotidiano",
+    "texto": "Qual destas notícias deixaria você mais feliz?",
+    "alternativas": [
+      {
+        "texto": "Dois países que estavam em guerra assinaram a paz.",
+        "pontos": {
+          "paz": 2,
+          "estrategia": 1
+        }
+      },
+      {
+        "texto": "Um povo conseguiu votar livremente pela primeira vez.",
+        "pontos": {
+          "liberdade": 2,
+          "dialogo": 1
+        }
+      },
+      {
+        "texto": "Acabou a diferença de salário entre homens e mulheres na mesma função.",
+        "pontos": {
+          "igualdade": 2,
+          "empatia": 1
+        }
+      },
+      {
+        "texto": "Uma vacina nova chegou de graça a todos os países.",
+        "pontos": {
+          "desenvolvimento": 2,
+          "firmeza": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p08",
+    "foco": "ritmo",
+    "tipo": "cotidiano",
+    "texto": "Uma regra da escola parece injusta para muita gente. O melhor caminho é...",
+    "alternativas": [
+      {
+        "texto": "Fazer ajustes pequenos, um de cada vez, testando o que funciona.",
+        "posicao": 0
+      },
+      {
+        "texto": "Montar um plano de mudança em etapas ao longo do ano.",
+        "posicao": 1.5
+      },
+      {
+        "texto": "Pedir uma mudança grande, mas negociada com a direção.",
+        "posicao": 3.5
+      },
+      {
+        "texto": "Mudar tudo de uma vez: uma regra injusta não pode esperar.",
+        "posicao": 5
+      }
+    ]
+  },
+  {
+    "id": "p09",
+    "foco": "estilo",
+    "tipo": "cotidiano",
+    "texto": "Dois amigos seus brigaram e pararam de se falar. Você...",
+    "alternativas": [
+      {
+        "texto": "Escuta cada um separadamente e dá apoio.",
+        "pontos": {
+          "empatia": 2,
+          "liberdade": 1
+        }
+      },
+      {
+        "texto": "Diz a cada um onde acha que ele errou, mesmo que seja difícil ouvir.",
+        "pontos": {
+          "firmeza": 2,
+          "paz": 1
+        }
+      },
+      {
+        "texto": "Espera os ânimos acalmarem e planeja um bom momento para reaproximar os dois.",
+        "pontos": {
+          "estrategia": 2,
+          "igualdade": 1
+        }
+      },
+      {
+        "texto": "Junta os dois e ajuda a conversa a acontecer.",
+        "pontos": {
+          "dialogo": 2,
+          "desenvolvimento": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p10",
+    "foco": "causa",
+    "tipo": "cotidiano",
+    "texto": "Você vai fazer um trabalho voluntário nas férias. Qual escolhe?",
+    "alternativas": [
+      {
+        "texto": "Ensinar as pessoas a conhecerem seus direitos e a participar das decisões da cidade.",
+        "pontos": {
+          "liberdade": 2,
+          "firmeza": 1
+        }
+      },
+      {
+        "texto": "Dar aula de reforço para crianças.",
+        "pontos": {
+          "igualdade": 2,
+          "dialogo": 1
+        }
+      },
+      {
+        "texto": "Ajudar a montar uma horta comunitária que gere renda.",
+        "pontos": {
+          "desenvolvimento": 2,
+          "estrategia": 1
+        }
+      },
+      {
+        "texto": "Ajudar a resolver conflitos numa comunidade.",
+        "pontos": {
+          "paz": 2,
+          "empatia": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p11",
+    "foco": "estilo",
+    "tipo": "cotidiano",
+    "texto": "Você foi escolhido para representar a turma no conselho de classe. Você...",
+    "alternativas": [
+      {
+        "texto": "Ouve a turma antes e leva todas as opiniões para a conversa com os professores.",
+        "pontos": {
+          "dialogo": 2,
+          "paz": 1
+        }
+      },
+      {
+        "texto": "Defende a turma mesmo quando o clima fica tenso.",
+        "pontos": {
+          "firmeza": 2,
+          "igualdade": 1
+        }
+      },
+      {
+        "texto": "Leva os casos de quem está passando por dificuldades.",
+        "pontos": {
+          "empatia": 2,
+          "desenvolvimento": 1
+        }
+      },
+      {
+        "texto": "Prepara uma lista de prioridades com propostas concretas.",
+        "pontos": {
+          "estrategia": 2,
+          "liberdade": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p12",
+    "foco": "causa",
+    "tipo": "cotidiano",
+    "texto": "Você vai apresentar um projeto na feira de ciências. Qual tema escolhe?",
+    "alternativas": [
+      {
+        "texto": "Energia limpa e tecnologia para a cidade.",
+        "pontos": {
+          "desenvolvimento": 2,
+          "empatia": 1
+        }
+      },
+      {
+        "texto": "Por que alguns jovens têm menos oportunidades que outros.",
+        "pontos": {
+          "igualdade": 2,
+          "firmeza": 1
+        }
+      },
+      {
+        "texto": "Como diminuir o bullying nas escolas.",
+        "pontos": {
+          "paz": 2,
+          "dialogo": 1
+        }
+      },
+      {
+        "texto": "Como dar mais voz aos jovens nas decisões.",
+        "pontos": {
+          "liberdade": 2,
+          "estrategia": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p13",
+    "foco": "quemResolve",
+    "tipo": "cotidiano",
+    "texto": "Muitos jovens da sua cidade não encontram curso técnico. O caminho é...",
+    "alternativas": [
+      {
+        "texto": "A comunidade, as associações e os voluntários organizarem os cursos.",
+        "posicao": 5
+      },
+      {
+        "texto": "Organizações e empresas da cidade criarem cursos, com apoio do governo.",
+        "posicao": 3.5
+      },
+      {
+        "texto": "O governo financiar cursos em parceria com escolas e empresas.",
+        "posicao": 1.5
+      },
+      {
+        "texto": "O governo abrir escolas técnicas públicas.",
+        "posicao": 0
+      }
+    ]
+  },
+  {
+    "id": "p14",
+    "foco": "estilo",
+    "tipo": "cotidiano",
+    "texto": "Chegou um aluno novo, de outro estado, e ele está sempre sozinho. Você...",
+    "alternativas": [
+      {
+        "texto": "Mostra a escola, os horários e como as coisas funcionam por ali.",
+        "pontos": {
+          "estrategia": 2,
+          "desenvolvimento": 1
+        }
+      },
+      {
+        "texto": "Senta do lado dele no intervalo.",
+        "pontos": {
+          "empatia": 2,
+          "paz": 1
+        }
+      },
+      {
+        "texto": "Se alguém zoar o sotaque dele, você fala na hora.",
+        "pontos": {
+          "firmeza": 2,
+          "liberdade": 1
+        }
+      },
+      {
+        "texto": "Apresenta ele à turma e puxa conversa sobre o lugar de onde ele veio.",
+        "pontos": {
+          "dialogo": 2,
+          "igualdade": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p15",
+    "foco": "causa",
+    "tipo": "ri",
+    "texto": "Você foi eleito secretário-geral da ONU. Qual seria a sua prioridade no primeiro ano?",
+    "alternativas": [
+      {
+        "texto": "Encerrar as guerras que estão acontecendo.",
+        "pontos": {
+          "paz": 2,
+          "firmeza": 1
+        }
+      },
+      {
+        "texto": "Levar energia, internet e saneamento a quem ainda não tem.",
+        "pontos": {
+          "desenvolvimento": 2,
+          "dialogo": 1
+        }
+      },
+      {
+        "texto": "Apoiar eleições livres e a liberdade de expressão no mundo.",
+        "pontos": {
+          "liberdade": 2,
+          "empatia": 1
+        }
+      },
+      {
+        "texto": "Diminuir a distância entre os países ricos e os pobres.",
+        "pontos": {
+          "igualdade": 2,
+          "estrategia": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p16",
+    "foco": "estilo",
+    "tipo": "ri",
+    "texto": "Você é mediador da ONU entre dois países vizinhos que disputam a água de um rio. Você...",
+    "alternativas": [
+      {
+        "texto": "Coloca os dois governos frente a frente e conduz a negociação até um acordo.",
+        "pontos": {
+          "dialogo": 2,
+          "liberdade": 1
+        }
+      },
+      {
+        "texto": "Vai primeiro às comunidades que vivem do rio para ouvir quem depende dele.",
+        "pontos": {
+          "empatia": 2,
+          "igualdade": 1
+        }
+      },
+      {
+        "texto": "Propõe um plano técnico de divisão da água, com metas para cada ano.",
+        "pontos": {
+          "estrategia": 2,
+          "paz": 1
+        }
+      },
+      {
+        "texto": "Lembra aos dois que os tratados assinados precisam ser cumpridos.",
+        "pontos": {
+          "firmeza": 2,
+          "desenvolvimento": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p17",
+    "foco": "ritmo",
+    "tipo": "ri",
+    "texto": "Um país quer trocar todo o seu transporte por energia limpa. O melhor caminho é...",
+    "alternativas": [
+      {
+        "texto": "Fazer a troca o mais rápido possível, mesmo que dê trabalho.",
+        "posicao": 5
+      },
+      {
+        "texto": "Fazer uma grande virada em poucos anos, com metas ousadas.",
+        "posicao": 3.5
+      },
+      {
+        "texto": "Avançar passo a passo, com metas a cada década.",
+        "posicao": 1.5
+      },
+      {
+        "texto": "Ir trocando aos poucos, conforme a tecnologia for ficando mais barata.",
+        "posicao": 0
+      }
+    ]
+  },
+  {
+    "id": "p18",
+    "foco": "causa",
+    "tipo": "ri",
+    "texto": "O Brasil vai receber uma cúpula com líderes do mundo todo. Que tema você colocaria no centro?",
+    "alternativas": [
+      {
+        "texto": "O combate ao racismo e a todo tipo de discriminação.",
+        "pontos": {
+          "igualdade": 2,
+          "empatia": 1
+        }
+      },
+      {
+        "texto": "O desarmamento e o fim dos conflitos.",
+        "pontos": {
+          "paz": 2,
+          "estrategia": 1
+        }
+      },
+      {
+        "texto": "O meio ambiente e o crescimento sustentável.",
+        "pontos": {
+          "desenvolvimento": 2,
+          "firmeza": 1
+        }
+      },
+      {
+        "texto": "A liberdade de imprensa e de expressão.",
+        "pontos": {
+          "liberdade": 2,
+          "dialogo": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p19",
+    "foco": "estilo",
+    "tipo": "ri",
+    "texto": "Um terremoto atinge um país, e você coordena a ajuda internacional. Você...",
+    "alternativas": [
+      {
+        "texto": "Cobra dos países que prometeram doações que cumpram o combinado.",
+        "pontos": {
+          "firmeza": 2,
+          "paz": 1
+        }
+      },
+      {
+        "texto": "Organiza a logística: quem leva o quê, para onde e quando.",
+        "pontos": {
+          "estrategia": 2,
+          "igualdade": 1
+        }
+      },
+      {
+        "texto": "Reúne governos e organizações para trabalharem juntos.",
+        "pontos": {
+          "dialogo": 2,
+          "desenvolvimento": 1
+        }
+      },
+      {
+        "texto": "Vai aos abrigos entender do que as famílias mais precisam.",
+        "pontos": {
+          "empatia": 2,
+          "liberdade": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "p20",
+    "foco": "causa",
+    "tipo": "ri",
+    "texto": "Um país está saindo de uma guerra civil. Como o mundo deveria ajudar primeiro?",
+    "alternativas": [
+      {
+        "texto": "Ajudando a organizar eleições livres.",
+        "pontos": {
+          "liberdade": 2,
+          "firmeza": 1
+        }
+      },
+      {
+        "texto": "Enviando uma missão de paz para garantir que os combates parem.",
+        "pontos": {
+          "paz": 2,
+          "empatia": 1
+        }
+      },
+      {
+        "texto": "Garantindo que todos os grupos tenham os mesmos direitos na nova Constituição.",
+        "pontos": {
+          "igualdade": 2,
+          "dialogo": 1
+        }
+      },
+      {
+        "texto": "Reconstruindo escolas, estradas e hospitais.",
+        "pontos": {
+          "desenvolvimento": 2,
+          "estrategia": 1
+        }
+      }
+    ]
+  }
+]

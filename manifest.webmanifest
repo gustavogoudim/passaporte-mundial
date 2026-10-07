@@ -1,0 +1,9 @@
+{
+  "name": "Passaporte Mundial",
+  "short_name": "Passaporte",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#faf7f0",
+  "theme_color": "#0f4c5c"
+}

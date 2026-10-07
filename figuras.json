@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "mandela",
+    "nome": "Nelson Mandela",
+    "pais": "África do Sul",
+    "periodo": "1918–2013",
+    "categoria": "Líder de Estado",
+    "titulo": "O Conciliador",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 5,
+      "estrategia": 4,
+      "empatia": 3,
+      "paz": 5,
+      "igualdade": 4,
+      "liberdade": 5,
+      "desenvolvimento": 2,
+      "ritmo": 2,
+      "quemResolve": 2
+    },
+    "card": {
+      "qualidades": [
+        "Perdoa sem esquecer a justiça",
+        "Mantém a firmeza por décadas",
+        "Transforma adversários em parceiros"
+      ],
+      "historia": "Passou 27 anos preso por lutar contra o apartheid, o sistema que separava as pessoas pela cor da pele. Ao sair, negociou uma transição pacífica e virou o primeiro presidente eleito por todos os sul-africanos.",
+      "frase": "Eu tenho cultivado o ideal de uma sociedade democrática e livre, na qual todas as pessoas vivam juntas em harmonia e com oportunidades iguais.",
+      "fonteFrase": "Discurso no Julgamento de Rivonia, Pretória, 20 abr. 1964",
+      "ganchoRI": "Tema: apartheid e reconciliação"
+    },
+    "ficha": {
+      "bio": "Advogado, nasceu numa aldeia do povo Xhosa. Liderou o Congresso Nacional Africano (CNA), ficou preso de 1962 a 1990 e foi presidente da África do Sul de 1994 a 1999.",
+      "contexto": "Entre 1948 e o início dos anos 1990, a África do Sul viveu sob o apartheid: leis que separavam escolas, bairros e direitos conforme a cor da pele. A maioria negra não podia votar.",
+      "oQueFez": "Negociou o fim do apartheid com o governo da época, evitando uma guerra civil. Como presidente, apoiou a Comissão da Verdade e Reconciliação, que ouviu vítimas e responsáveis por violações.",
+      "curiosidades": [
+        "Recebeu o Nobel da Paz de 1993 junto com Frederik de Klerk, o presidente com quem negociou.",
+        "O dia do seu aniversário, 18 de julho, é o Dia Internacional Nelson Mandela, criado pela ONU."
+      ],
+      "porQueImportaRI": "Mostra como a pressão internacional (sanções e boicotes) e a negociação interna podem encerrar um regime injusto sem guerra. A Comissão da Verdade virou modelo para outros países."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg",
+      "arquivo": "fotos/mandela.jpg",
+      "autor": "Kingkongphoto & www.celebrity-photos.com from Laurel",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "merkel",
+    "nome": "Angela Merkel",
+    "pais": "Alemanha",
+    "periodo": "1954–",
+    "categoria": "Líder de Estado",
+    "titulo": "A Estrategista Serena",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 3,
+      "estrategia": 5,
+      "empatia": 2,
+      "paz": 3,
+      "igualdade": 2,
+      "liberdade": 3,
+      "desenvolvimento": 5,
+      "ritmo": 0,
+      "quemResolve": 1
+    },
+    "card": {
+      "qualidades": [
+        "Analisa antes de decidir",
+        "Mantém a calma na crise",
+        "Pensa no longo prazo"
+      ],
+      "historia": "Cientista formada em física, cresceu na Alemanha Oriental. Foi chanceler da Alemanha por 16 anos e conduziu a Europa em várias crises econômicas e humanitárias.",
+      "frase": "Nós vamos conseguir. (Wir schaffen das.)",
+      "fonteFrase": "Entrevista coletiva em Berlim, 31 ago. 2015",
+      "ganchoRI": "Tema: União Europeia e gestão de crises"
+    },
+    "ficha": {
+      "bio": "Doutora em química quântica, entrou na política após a queda do Muro de Berlim. Foi a primeira mulher chanceler da Alemanha (2005–2021).",
+      "contexto": "A Alemanha ficou dividida em duas de 1949 a 1990. Reunificada, tornou-se a maior economia da Europa e peça central da União Europeia.",
+      "oQueFez": "Liderou a resposta europeia à crise financeira de 2008 e à crise do euro, recebeu mais de um milhão de refugiados em 2015 e mediou negociações durante o conflito no leste da Ucrânia.",
+      "curiosidades": [
+        "Era conhecida pelo apelido \"Mutti\" (\"mãezinha\") na Alemanha.",
+        "Antes da política, trabalhou como pesquisadora num instituto de ciências em Berlim Oriental."
+      ],
+      "porQueImportaRI": "É um exemplo de liderança pelo consenso dentro de um bloco regional e de como um país pode ter peso global por meio da economia e da diplomacia."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_2019_cropped.jpg",
+      "arquivo": "fotos/merkel.jpg",
+      "autor": "Raimond Spekking",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "lincoln",
+    "nome": "Abraham Lincoln",
+    "pais": "Estados Unidos",
+    "periodo": "1809–1865",
+    "categoria": "Líder de Estado",
+    "titulo": "O Unificador",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 5,
+      "estrategia": 4,
+      "empatia": 3,
+      "paz": 2,
+      "igualdade": 5,
+      "liberdade": 4,
+      "desenvolvimento": 3,
+      "ritmo": 3,
+      "quemResolve": 0
+    },
+    "card": {
+      "qualidades": [
+        "Firme nos princípios",
+        "Comunica ideias com clareza",
+        "Não desiste em tempos difíceis"
+      ],
+      "historia": "Nasceu numa cabana e estudou quase sozinho. Presidiu os EUA durante a Guerra Civil, manteve o país unido e aprovou o fim da escravidão.",
+      "frase": "Que o governo do povo, pelo povo e para o povo não desapareça da Terra.",
+      "fonteFrase": "Discurso de Gettysburg, 19 nov. 1863",
+      "ganchoRI": "Tema: escravidão, guerra civil e união nacional"
+    },
+    "ficha": {
+      "bio": "Advogado autodidata do interior, foi o 16º presidente dos EUA (1861–1865). Foi assassinado dias depois do fim da guerra.",
+      "contexto": "Nos anos 1860, os estados do sul dos EUA defendiam a escravidão e tentaram se separar do país, o que levou à Guerra Civil (1861–1865).",
+      "oQueFez": "Assinou a Proclamação de Emancipação (1863) e apoiou a 13ª Emenda à Constituição, que aboliu a escravidão em todo o país.",
+      "curiosidades": [
+        "Tinha cerca de 1,93 m: foi o presidente mais alto da história dos EUA.",
+        "O Discurso de Gettysburg tem menos de 300 palavras e durou uns dois minutos."
+      ],
+      "porQueImportaRI": "A abolição nos EUA influenciou o debate no mundo todo, inclusive no Brasil, último país das Américas a abolir a escravidão (1888)."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+      "arquivo": "fotos/lincoln.jpg",
+      "autor": "Alexander Gardner",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "kennedy",
+    "nome": "John F. Kennedy",
+    "pais": "Estados Unidos",
+    "periodo": "1917–1963",
+    "categoria": "Líder de Estado",
+    "titulo": "O Visionário",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 3,
+      "estrategia": 4,
+      "empatia": 2,
+      "paz": 3,
+      "igualdade": 3,
+      "liberdade": 5,
+      "desenvolvimento": 4,
+      "ritmo": 2,
+      "quemResolve": 1
+    },
+    "card": {
+      "qualidades": [
+        "Inspira as pessoas a agir",
+        "Mira objetivos ousados",
+        "Mantém a cabeça fria sob pressão"
+      ],
+      "historia": "Foi o presidente mais jovem eleito nos EUA. Enfrentou a Crise dos Mísseis em Cuba sem guerra e lançou o desafio de levar o ser humano à Lua.",
+      "frase": "Não pergunte o que seu país pode fazer por você; pergunte o que você pode fazer pelo seu país.",
+      "fonteFrase": "Discurso de posse, Washington, 20 jan. 1961",
+      "ganchoRI": "Tema: Guerra Fria e corrida espacial"
+    },
+    "ficha": {
+      "bio": "Veterano da Segunda Guerra, foi deputado, senador e o 35º presidente dos EUA (1961–1963). Foi assassinado em Dallas, em 1963.",
+      "contexto": "Na Guerra Fria, EUA e União Soviética disputavam influência no mundo sem se enfrentar diretamente, com risco constante de guerra nuclear.",
+      "oQueFez": "Negociou o fim da Crise dos Mísseis (1962), assinou o Tratado de Proibição Parcial de Testes Nucleares (1963), criou o Corpo da Paz e lançou o programa Apollo.",
+      "curiosidades": [
+        "Depois da Crise dos Mísseis, foi criada uma linha direta entre Washington e Moscou para evitar mal-entendidos.",
+        "Ganhou o Prêmio Pulitzer pelo livro \"Perfis de Coragem\"."
+      ],
+      "porQueImportaRI": "A Crise dos Mísseis é o caso mais estudado de diplomacia em momento de risco nuclear: mostra a importância da comunicação direta entre rivais."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg",
+      "arquivo": "fotos/kennedy.jpg",
+      "autor": "Cecil W. Stoughton",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "fdr",
+    "nome": "Franklin D. Roosevelt",
+    "pais": "Estados Unidos",
+    "periodo": "1882–1945",
+    "categoria": "Líder de Estado",
+    "titulo": "O Reconstrutor",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 4,
+      "estrategia": 5,
+      "empatia": 3,
+      "paz": 2,
+      "igualdade": 3,
+      "liberdade": 4,
+      "desenvolvimento": 5,
+      "ritmo": 3,
+      "quemResolve": 0
+    },
+    "card": {
+      "qualidades": [
+        "Planeja soluções em grande escala",
+        "Passa confiança em tempos de crise",
+        "Une pessoas diferentes num projeto"
+      ],
+      "historia": "Assumiu os EUA no meio da Grande Depressão, quando milhões estavam sem emprego, e criou programas para reerguer o país. Liderou a nação na Segunda Guerra Mundial.",
+      "frase": "A única coisa que devemos temer é o próprio medo.",
+      "fonteFrase": "Primeiro discurso de posse, Washington, 4 mar. 1933",
+      "ganchoRI": "Tema: Grande Depressão e criação da ONU"
+    },
+    "ficha": {
+      "bio": "Foi o único presidente dos EUA eleito quatro vezes (1933–1945). Governou mesmo com as pernas paralisadas pela poliomielite.",
+      "contexto": "A crise de 1929 derrubou economias no mundo todo. Nos anos seguintes, regimes autoritários cresceram na Europa e na Ásia e levaram à Segunda Guerra Mundial.",
+      "oQueFez": "Criou o New Deal, com obras públicas, previdência e regras para os bancos. Na guerra, formou a aliança com outros países e propôs o nome e a ideia das \"Nações Unidas\".",
+      "curiosidades": [
+        "Falava com a população pelo rádio nas \"conversas ao pé da lareira\".",
+        "Foi casado com Eleanor Roosevelt, que também está neste teste."
+      ],
+      "porQueImportaRI": "Teve papel central no desenho da ordem do pós-guerra: a ONU, o Banco Mundial e o FMI nasceram do planejamento do seu governo com os aliados."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
+      "arquivo": "fotos/fdr.jpg",
+      "autor": "Leon Perskie",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "ardern",
+    "nome": "Jacinda Ardern",
+    "pais": "Nova Zelândia",
+    "periodo": "1980–",
+    "categoria": "Líder de Estado",
+    "titulo": "A Líder Empática",
+    "tracos": {
+      "dialogo": 4,
+      "firmeza": 2,
+      "estrategia": 2,
+      "empatia": 5,
+      "paz": 4,
+      "igualdade": 4,
+      "liberdade": 2,
+      "desenvolvimento": 3,
+      "ritmo": 2,
+      "quemResolve": 1
+    },
+    "card": {
+      "qualidades": [
+        "Escuta com atenção",
+        "Acolhe quem está sofrendo",
+        "Age rápido quando precisa"
+      ],
+      "historia": "Virou primeira-ministra da Nova Zelândia aos 37 anos. Ficou conhecida no mundo pela forma acolhedora como conduziu o país depois de um ataque contra duas mesquitas em 2019.",
+      "frase": "Eles somos nós.",
+      "fonteFrase": "Pronunciamento à nação, 15 mar. 2019",
+      "ganchoRI": "Tema: liderança em crises e combate ao extremismo"
+    },
+    "ficha": {
+      "bio": "Formada em comunicação, foi primeira-ministra da Nova Zelândia de 2017 a 2023. Deixou o cargo dizendo que não tinha mais energia suficiente para fazê-lo bem.",
+      "contexto": "A Nova Zelândia é um país pequeno do Pacífico, com forte presença do povo maori, que costuma ter voz própria em temas como clima e desarmamento.",
+      "oQueFez": "Após o ataque de 2019, aprovou em poucas semanas regras mais rígidas para armas e lançou com a França o \"Chamado de Christchurch\", para tirar conteúdo extremista violento da internet.",
+      "curiosidades": [
+        "Foi a segunda chefe de governo no mundo a ter um bebê durante o mandato.",
+        "Levou a filha de três meses a uma Assembleia Geral da ONU, em 2018."
+      ],
+      "porQueImportaRI": "Mostra como países pequenos ganham influência global com propostas de cooperação, como o acordo com empresas de tecnologia contra o extremismo online."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg",
+      "arquivo": "fotos/ardern.jpg",
+      "autor": "Newzild",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "gorbachev",
+    "nome": "Mikhail Gorbachev",
+    "pais": "União Soviética / Rússia",
+    "periodo": "1931–2022",
+    "categoria": "Líder de Estado",
+    "titulo": "O Reformador",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 2,
+      "estrategia": 3,
+      "empatia": 3,
+      "paz": 5,
+      "igualdade": 1,
+      "liberdade": 5,
+      "desenvolvimento": 2,
+      "ritmo": 4,
+      "quemResolve": 1
+    },
+    "card": {
+      "qualidades": [
+        "Tem coragem de mudar o que não funciona",
+        "Abre portas para o diálogo",
+        "Prefere acordos a confrontos"
+      ],
+      "historia": "Último líder da União Soviética. Abriu o país para mais liberdade de expressão, negociou a redução de armas nucleares com os EUA e ajudou a encerrar a Guerra Fria sem guerra.",
+      "frase": "Esta sociedade conquistou a liberdade. Ela se libertou política e espiritualmente.",
+      "fonteFrase": "Discurso de renúncia, Moscou, 25 dez. 1991",
+      "ganchoRI": "Tema: fim da Guerra Fria e desarmamento nuclear"
+    },
+    "ficha": {
+      "bio": "Filho de camponeses, estudou direito em Moscou. Liderou a URSS de 1985 a 1991.",
+      "contexto": "A União Soviética era um Estado de partido único, com economia estatal e controle sobre a imprensa. Disputava com os EUA uma corrida armamentista cara e perigosa.",
+      "oQueFez": "Lançou a glasnost (transparência) e a perestroika (reestruturação). Assinou com os EUA o Tratado INF (1987), que eliminou uma categoria inteira de mísseis nucleares, e não usou a força quando o Muro de Berlim caiu.",
+      "curiosidades": [
+        "Tinha uma mancha de nascença na testa que virou marca registrada.",
+        "Recebeu o Nobel da Paz em 1990."
+      ],
+      "porQueImportaRI": "O fim da Guerra Fria mudou o mapa do mundo: surgiram 15 novos países e a Alemanha se reunificou. É estudado como exemplo de mudança negociada entre superpotências."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
+      "arquivo": "fotos/gorbachev.jpg",
+      "autor": "Yuryi Abramochkin / RIA Novosti",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "sirleaf",
+    "nome": "Ellen Johnson Sirleaf",
+    "pais": "Libéria",
+    "periodo": "1938–",
+    "categoria": "Líder de Estado",
+    "titulo": "A Reconstrutora da Paz",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 4,
+      "estrategia": 3,
+      "empatia": 3,
+      "paz": 5,
+      "igualdade": 3,
+      "liberdade": 3,
+      "desenvolvimento": 5,
+      "ritmo": 2,
+      "quemResolve": 1
+    },
+    "card": {
+      "qualidades": [
+        "Persistente diante dos obstáculos",
+        "Organiza e reconstrói",
+        "Pensa no futuro do país"
+      ],
+      "historia": "Primeira mulher eleita presidente de um país africano. Assumiu a Libéria depois de anos de guerra civil e trabalhou para reconstruir escolas, estradas e a economia.",
+      "frase": "O tamanho dos seus sonhos deve sempre ser maior que a sua capacidade atual de realizá-los. Se seus sonhos não te assustam, eles não são grandes o suficiente.",
+      "fonteFrase": "Discurso de formatura em Harvard, 26 mai. 2011",
+      "ganchoRI": "Tema: reconstrução pós-guerra e mulheres no poder"
+    },
+    "ficha": {
+      "bio": "Economista formada em Harvard, trabalhou no Banco Mundial e na ONU. Foi presidente da Libéria de 2006 a 2018.",
+      "contexto": "A Libéria, na África Ocidental, viveu duas guerras civis entre 1989 e 2003, que deixaram centenas de milhares de mortos e o país destruído.",
+      "oQueFez": "Conseguiu o perdão de boa parte da dívida externa, reconstruiu serviços públicos e liderou o país durante a epidemia de ebola (2014–2016).",
+      "curiosidades": [
+        "Recebeu o Nobel da Paz de 2011 junto com Leymah Gbowee e Tawakkol Karman.",
+        "Chegou a ser presa e a viver no exílio por criticar governos anteriores."
+      ],
+      "porQueImportaRI": "A Libéria é um caso de estudo de como a ONU, os vizinhos e a própria população podem ajudar um país a sair da guerra e manter a paz."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg",
+      "arquivo": "fotos/sirleaf.jpg",
+      "autor": "PMO Barbados",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "carter",
+    "nome": "Jimmy Carter",
+    "pais": "Estados Unidos",
+    "periodo": "1924–2024",
+    "categoria": "Líder de Estado",
+    "titulo": "O Mediador da Paz",
+    "tracos": {
+      "dialogo": 4,
+      "firmeza": 3,
+      "estrategia": 3,
+      "empatia": 4,
+      "paz": 5,
+      "igualdade": 3,
+      "liberdade": 4,
+      "desenvolvimento": 3,
+      "ritmo": 1,
+      "quemResolve": 3
+    },
+    "card": {
+      "qualidades": [
+        "Honesto e direto",
+        "Busca acordos entre rivais",
+        "Dedica a vida a ajudar os outros"
+      ],
+      "historia": "Presidente dos EUA que conseguiu um acordo de paz histórico entre Egito e Israel. Depois da presidência, passou décadas mediando conflitos, observando eleições e combatendo doenças.",
+      "frase": "A guerra pode às vezes ser um mal necessário. Mas, por mais necessária que seja, é sempre um mal, nunca um bem.",
+      "fonteFrase": "Discurso do Nobel da Paz, Oslo, 10 dez. 2002",
+      "ganchoRI": "Tema: mediação de conflitos e direitos humanos"
+    },
+    "ficha": {
+      "bio": "Produtor de amendoim e oficial da Marinha, foi o 39º presidente dos EUA (1977–1981). Viveu até os 100 anos.",
+      "contexto": "Nos anos 1970, Egito e Israel tinham travado várias guerras. O Oriente Médio era um dos pontos mais tensos da Guerra Fria.",
+      "oQueFez": "Mediou os Acordos de Camp David (1978), colocou os direitos humanos no centro da política externa e criou o Centro Carter, que ajudou a quase erradicar a doença do verme-da-guiné.",
+      "curiosidades": [
+        "Por décadas, ajudou a construir casas com as próprias mãos como voluntário.",
+        "Foi o ex-presidente dos EUA que viveu por mais tempo."
+      ],
+      "porQueImportaRI": "Camp David mostra como um país terceiro pode mediar a paz entre inimigos. Sua atuação depois do cargo mostra que a diplomacia não depende só de governos."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg",
+      "arquivo": "fotos/carter.jpg",
+      "autor": "Department of Defense. Department of the Navy. Naval Photographic Center",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "jk",
+    "nome": "Juscelino Kubitschek",
+    "pais": "Brasil",
+    "periodo": "1902–1976",
+    "categoria": "Líder de Estado",
+    "titulo": "O Construtor de Futuros",
+    "tracos": {
+      "dialogo": 4,
+      "firmeza": 2,
+      "estrategia": 4,
+      "empatia": 2,
+      "paz": 1,
+      "igualdade": 1,
+      "liberdade": 3,
+      "desenvolvimento": 5,
+      "ritmo": 4,
+      "quemResolve": 0
+    },
+    "card": {
+      "qualidades": [
+        "Sonha grande e executa",
+        "Otimista e empreendedor",
+        "Faz acontecer rápido"
+      ],
+      "historia": "Presidente do Brasil que prometeu \"50 anos em 5\". Construiu Brasília em menos de quatro anos e acelerou a industrialização do país.",
+      "frase": "Cinquenta anos de progresso em cinco de governo.",
+      "fonteFrase": "Lema da campanha presidencial, 1955",
+      "ganchoRI": "Tema: desenvolvimento e Operação Pan-Americana"
+    },
+    "ficha": {
+      "bio": "Médico mineiro, foi prefeito de Belo Horizonte, governador de Minas Gerais e presidente do Brasil (1956–1961).",
+      "contexto": "Nos anos 1950, o Brasil ainda era um país muito rural. Governos de toda a América Latina buscavam se industrializar para depender menos da exportação de produtos agrícolas.",
+      "oQueFez": "Lançou o Plano de Metas (energia, transportes, indústria), trouxe montadoras de carros ao país, construiu Brasília e propôs aos EUA a Operação Pan-Americana, para apoiar o desenvolvimento da região.",
+      "curiosidades": [
+        "Era conhecido como \"presidente bossa nova\", época em que esse estilo musical surgiu.",
+        "Em Belo Horizonte, encomendou a Oscar Niemeyer o conjunto da Pampulha."
+      ],
+      "porQueImportaRI": "A Operação Pan-Americana é um marco da diplomacia brasileira: levou o tema do desenvolvimento para o centro das relações entre os países das Américas."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Juscelino_Kubitschek_in_1956.jpg",
+      "arquivo": "fotos/jk.jpg",
+      "autor": "Governo do Brasil",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "pedro2",
+    "nome": "Dom Pedro II",
+    "pais": "Brasil",
+    "periodo": "1825–1891",
+    "categoria": "Líder de Estado",
+    "titulo": "O Sábio",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 2,
+      "estrategia": 3,
+      "empatia": 2,
+      "paz": 2,
+      "igualdade": 2,
+      "liberdade": 3,
+      "desenvolvimento": 5,
+      "ritmo": 0,
+      "quemResolve": 0
+    },
+    "card": {
+      "qualidades": [
+        "Curioso e estudioso",
+        "Valoriza a educação e a ciência",
+        "Paciente e equilibrado"
+      ],
+      "historia": "Imperador do Brasil por quase 50 anos. Apaixonado por ciência, apoiou escolas, museus e pesquisadores e se correspondia com cientistas do mundo inteiro.",
+      "frase": "Se não fosse imperador, gostaria de ser professor. Não conheço tarefa mais nobre do que dirigir as jovens inteligências e preparar os homens do futuro.",
+      "fonteFrase": "Diário de D. Pedro II, citado em José Murilo de Carvalho, \"D. Pedro II\" (2007)",
+      "ganchoRI": "Tema: Império, ciência e imagem do Brasil no mundo"
+    },
+    "ficha": {
+      "bio": "Assumiu o trono aos 14 anos e governou de 1840 a 1889. Com a Proclamação da República, foi para o exílio na Europa, onde morreu.",
+      "contexto": "O Brasil do século 19 era uma monarquia com economia baseada na agricultura e na mão de obra escravizada. A abolição veio em 1888, aprovada no seu reinado.",
+      "oQueFez": "Incentivou o Instituto Histórico e Geográfico Brasileiro, o Colégio Pedro II e a participação do Brasil em exposições internacionais. Viajou pelo mundo visitando universidades e cientistas.",
+      "curiosidades": [
+        "Foi um dos primeiros a experimentar o telefone de Graham Bell, nos EUA, em 1876.",
+        "Falava e lia vários idiomas, incluindo hebraico e tupi."
+      ],
+      "porQueImportaRI": "Mostra como a ciência e a cultura podem construir a imagem de um país no exterior, o que hoje chamamos de \"poder brando\" (soft power)."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Pedro_II_of_Brazil_-_Brady-Handy.jpg",
+      "arquivo": "fotos/pedro2.jpg",
+      "autor": "Mathew Benjamin Brady / Levin Corbin Handy",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "riobranco",
+    "nome": "Barão do Rio Branco",
+    "pais": "Brasil",
+    "periodo": "1845–1912",
+    "categoria": "Diplomacia",
+    "titulo": "O Negociador",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 2,
+      "estrategia": 5,
+      "empatia": 1,
+      "paz": 5,
+      "igualdade": 1,
+      "liberdade": 1,
+      "desenvolvimento": 3,
+      "ritmo": 0,
+      "quemResolve": 0
+    },
+    "card": {
+      "qualidades": [
+        "Resolve conflitos com argumentos",
+        "Pesquisa a fundo antes de agir",
+        "Paciente e estratégico"
+      ],
+      "historia": "Considerado o \"pai da diplomacia brasileira\". Definiu boa parte das fronteiras do Brasil por meio de negociações e arbitragens, sem guerras.",
+      "frase": "Ubique patriae memor. (Em qualquer lugar, lembrando da pátria.)",
+      "fonteFrase": "Lema pessoal adotado pelo Barão do Rio Branco",
+      "ganchoRI": "Tema: fronteiras e solução pacífica de disputas"
+    },
+    "ficha": {
+      "bio": "José Maria da Silva Paranhos Júnior foi diplomata, historiador e ministro das Relações Exteriores de 1902 a 1912.",
+      "contexto": "No fim do século 19, várias fronteiras do Brasil com os vizinhos ainda não estavam definidas, o que gerava disputas por território.",
+      "oQueFez": "Venceu arbitragens internacionais sobre as regiões de Palmas (com a Argentina) e do Amapá (com a França) e negociou o Tratado de Petrópolis (1903), pelo qual o Acre passou a fazer parte do Brasil.",
+      "curiosidades": [
+        "O Itamaraty, a sede da diplomacia brasileira, chama sua escola de diplomatas de Instituto Rio Branco.",
+        "Seu rosto já esteve em notas de dinheiro brasileiras."
+      ],
+      "porQueImportaRI": "É a referência da tradição brasileira de resolver disputas por negociação e direito internacional, e não pela força."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Barao_do_rio_branco_00.jpg",
+      "arquivo": "fotos/riobranco.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "ruibarbosa",
+    "nome": "Rui Barbosa",
+    "pais": "Brasil",
+    "periodo": "1849–1923",
+    "categoria": "Diplomacia",
+    "titulo": "O Defensor da Igualdade",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 5,
+      "estrategia": 3,
+      "empatia": 1,
+      "paz": 2,
+      "igualdade": 4,
+      "liberdade": 5,
+      "desenvolvimento": 1,
+      "ritmo": 2,
+      "quemResolve": 2
+    },
+    "card": {
+      "qualidades": [
+        "Argumenta com força",
+        "Defende os princípios até o fim",
+        "Não se cala diante da injustiça"
+      ],
+      "historia": "Jurista e orador brilhante, ficou famoso por defender, numa conferência internacional, que países pequenos e grandes devem ter direitos iguais.",
+      "frase": "A regra da igualdade não consiste senão em quinhoar desigualmente aos desiguais, na medida em que se desigualam.",
+      "fonteFrase": "\"Oração aos Moços\", discurso de paraninfo na Faculdade de Direito de São Paulo, 1921",
+      "ganchoRI": "Tema: igualdade entre os Estados"
+    },
+    "ficha": {
+      "bio": "Baiano, foi advogado, jornalista, senador e ministro da Fazenda. Ajudou a escrever a primeira Constituição republicana (1891).",
+      "contexto": "No início do século 20, as grandes potências queriam ter mais poder que os outros países nos tribunais e organizações internacionais que estavam surgindo.",
+      "oQueFez": "Na Segunda Conferência da Paz de Haia (1907), defendeu a igualdade jurídica entre os Estados e ganhou o apelido de \"Águia de Haia\". Também defendeu a abolição e a liberdade de imprensa.",
+      "curiosidades": [
+        "Sua casa no Rio de Janeiro virou a Fundação Casa de Rui Barbosa.",
+        "Candidatou-se à presidência mais de uma vez, sem vencer."
+      ],
+      "porQueImportaRI": "A igualdade entre os Estados que ele defendeu é hoje um princípio da Carta da ONU: na Assembleia Geral, cada país tem um voto."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Ruy_Barbosa_1907.jpg",
+      "arquivo": "fotos/ruibarbosa.jpg",
+      "autor": "Fitz Gerald",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "nabuco",
+    "nome": "Joaquim Nabuco",
+    "pais": "Brasil",
+    "periodo": "1849–1910",
+    "categoria": "Diplomacia",
+    "titulo": "O Abolicionista",
+    "tracos": {
+      "dialogo": 4,
+      "firmeza": 3,
+      "estrategia": 4,
+      "empatia": 4,
+      "paz": 2,
+      "igualdade": 5,
+      "liberdade": 3,
+      "desenvolvimento": 2,
+      "ritmo": 2,
+      "quemResolve": 3
+    },
+    "card": {
+      "qualidades": [
+        "Usa as palavras para mudar ideias",
+        "Sente a dor dos outros",
+        "Constrói pontes entre países"
+      ],
+      "historia": "Um dos maiores líderes da campanha pela abolição da escravidão no Brasil. Depois, como diplomata, foi o primeiro embaixador brasileiro nos EUA.",
+      "frase": "A escravidão permanecerá por muito tempo como a característica nacional do Brasil.",
+      "fonteFrase": "\"Minha Formação\", 1900",
+      "ganchoRI": "Tema: abolição e aproximação com os EUA"
+    },
+    "ficha": {
+      "bio": "Pernambucano, foi deputado, escritor e diplomata. Foi um dos fundadores da Academia Brasileira de Letras.",
+      "contexto": "O Brasil foi o último país das Américas a abolir a escravidão, em 1888. Por mais de três séculos, milhões de africanos foram trazidos à força para o país.",
+      "oQueFez": "Escreveu \"O Abolicionismo\" (1883) e fez campanha no Parlamento e na imprensa pelo fim da escravidão. Como embaixador em Washington (1905–1910), aproximou o Brasil dos EUA.",
+      "curiosidades": [
+        "Defendeu que o fim da escravidão devia vir com educação e terra para os libertos.",
+        "Presidiu a Terceira Conferência Pan-Americana, no Rio de Janeiro, em 1906."
+      ],
+      "porQueImportaRI": "Ligou uma causa de direitos humanos a uma estratégia de política externa e mostrou que a imagem de um país no mundo depende de como trata seu próprio povo."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_joaquim_nabuco_in_court_dress.jpg",
+      "arquivo": "fotos/nabuco.jpg",
+      "autor": "James Lafayette",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "lutz",
+    "nome": "Bertha Lutz",
+    "pais": "Brasil",
+    "periodo": "1894–1976",
+    "categoria": "Diplomacia",
+    "titulo": "A Pioneira",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 4,
+      "estrategia": 4,
+      "empatia": 2,
+      "paz": 2,
+      "igualdade": 5,
+      "liberdade": 3,
+      "desenvolvimento": 1,
+      "ritmo": 3,
+      "quemResolve": 4
+    },
+    "card": {
+      "qualidades": [
+        "Abre caminhos onde não havia",
+        "Organiza pessoas por uma causa",
+        "Une ciência e ação"
+      ],
+      "historia": "Cientista e líder do movimento pelo voto feminino no Brasil. Em 1945, ajudou a garantir que a Carta da ONU falasse em igualdade entre homens e mulheres.",
+      "frase": "Somos filhos de tais mulheres.",
+      "fonteFrase": "Título do artigo publicado na Revista da Semana, 14 dez. 1918",
+      "ganchoRI": "Tema: direitos das mulheres e Carta da ONU"
+    },
+    "ficha": {
+      "bio": "Bióloga formada na Sorbonne, trabalhou no Museu Nacional, no Rio de Janeiro, estudando sapos e rãs. Foi também advogada e deputada federal.",
+      "contexto": "As brasileiras só conquistaram o direito de votar em 1932. Em 1945, na conferência que criou a ONU, só havia poucas mulheres entre centenas de delegados.",
+      "oQueFez": "Fundou a Federação Brasileira pelo Progresso Feminino (1922) e lutou pelo voto feminino. Em São Francisco (1945), defendeu com outras delegadas latino-americanas a menção à igualdade de gênero na Carta da ONU.",
+      "curiosidades": [
+        "Foi uma das apenas quatro mulheres que assinaram a Carta da ONU, em 1945.",
+        "Por muito tempo, seu papel na Carta da ONU foi pouco lembrado e só foi redescoberto recentemente por pesquisadoras."
+      ],
+      "porQueImportaRI": "Mostra que o Brasil e a América Latina ajudaram a colocar os direitos das mulheres no centro do sistema internacional."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Bertha_Lutz_1925.jpg",
+      "arquivo": "fotos/lutz.jpg",
+      "autor": "Autor desconhecido (restauração: Adam Cuerden)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "vieirademello",
+    "nome": "Sérgio Vieira de Mello",
+    "pais": "Brasil",
+    "periodo": "1948–2003",
+    "categoria": "Diplomacia",
+    "titulo": "O Humanitário",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 2,
+      "estrategia": 4,
+      "empatia": 4,
+      "paz": 5,
+      "igualdade": 4,
+      "liberdade": 2,
+      "desenvolvimento": 2,
+      "ritmo": 1,
+      "quemResolve": 2
+    },
+    "card": {
+      "qualidades": [
+        "Vai aonde precisam dele",
+        "Conversa com todos os lados",
+        "Coloca as pessoas em primeiro lugar"
+      ],
+      "historia": "Diplomata da ONU por mais de 30 anos, trabalhou em zonas de conflito do mundo todo. Liderou a transição do Timor-Leste para a independência.",
+      "frase": "Não esperem que eu trate de direitos humanos apenas em escritórios confortáveis. Eu gosto de sujar minhas botas de lama.",
+      "fonteFrase": "Citado pelo Instituto de Relações Internacionais da USP (projeto Sérgio Vieira de Mello)",
+      "ganchoRI": "Tema: missões de paz e refugiados"
+    },
+    "ficha": {
+      "bio": "Carioca, estudou filosofia na França e entrou na ONU aos 21 anos. Chegou a Alto Comissário da ONU para os Direitos Humanos. Morreu num atentado contra a sede da ONU em Bagdá, em 2003.",
+      "contexto": "Desde o fim da Guerra Fria, a ONU passou a atuar em muitos conflitos internos, ajudando refugiados e apoiando a criação de novos governos.",
+      "oQueFez": "Atuou com refugiados em Bangladesh, Sudão, Camboja, Bósnia e outros lugares. No Timor-Leste (1999–2002), administrou o território em nome da ONU até a independência.",
+      "curiosidades": [
+        "O dia da sua morte, 19 de agosto, virou o Dia Mundial Humanitário.",
+        "Falava português, inglês, francês, espanhol e italiano, além de um pouco de tétum, idioma do Timor."
+      ],
+      "porQueImportaRI": "É o brasileiro que chegou mais longe na ONU e um símbolo do trabalho humanitário e das missões de paz."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:S%C3%A9rgio_Vieira_de_Mello.jpg",
+      "arquivo": "fotos/vieirademello.jpg",
+      "autor": "Wilson Dias/ABr",
+      "licenca": "CC BY 3.0 br"
+    }
+  },
+  {
+    "id": "annan",
+    "nome": "Kofi Annan",
+    "pais": "Gana",
+    "periodo": "1938–2018",
+    "categoria": "Diplomacia",
+    "titulo": "O Guardião do Diálogo",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 1,
+      "estrategia": 3,
+      "empatia": 4,
+      "paz": 5,
+      "igualdade": 4,
+      "liberdade": 3,
+      "desenvolvimento": 4,
+      "ritmo": 1,
+      "quemResolve": 2
+    },
+    "card": {
+      "qualidades": [
+        "Calmo e respeitoso",
+        "Busca soluções que incluam todos",
+        "Pensa no planeta como um todo"
+      ],
+      "historia": "Primeiro secretário-geral da ONU vindo da África subsaariana. Lançou metas mundiais para reduzir a pobreza e recebeu o Nobel da Paz junto com a própria ONU.",
+      "frase": "Mais do que nunca na história humana, compartilhamos um destino comum.",
+      "fonteFrase": "Discurso do Nobel da Paz, Oslo, 10 dez. 2001",
+      "ganchoRI": "Tema: ONU e Objetivos do Milênio"
+    },
+    "ficha": {
+      "bio": "Economista nascido em Gana, fez quase toda a carreira na ONU. Foi secretário-geral de 1997 a 2006.",
+      "contexto": "Na virada do milênio, o mundo discutia como reduzir a pobreza extrema, combater o HIV/aids e reagir a guerras civis e genocídios.",
+      "oQueFez": "Lançou os Objetivos de Desenvolvimento do Milênio, criou o Fundo Global de combate à aids, à tuberculose e à malária e defendeu a ideia de que o mundo tem a responsabilidade de proteger populações de crimes em massa.",
+      "curiosidades": [
+        "Tinha um irmão gêmeo, Efua Atta, e o nome \"Kofi\" significa \"nascido numa sexta-feira\".",
+        "Depois da ONU, mediou a crise política no Quênia, em 2008."
+      ],
+      "porQueImportaRI": "Os Objetivos do Milênio inspiraram os atuais Objetivos de Desenvolvimento Sustentável (ODS), a principal agenda global da ONU."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Kofi_Annan_2012_(cropped).jpg",
+      "arquivo": "fotos/annan.jpg",
+      "autor": "US Mission in Geneva",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "eleanor",
+    "nome": "Eleanor Roosevelt",
+    "pais": "Estados Unidos",
+    "periodo": "1884–1962",
+    "categoria": "Diplomacia",
+    "titulo": "A Voz dos Direitos Humanos",
+    "tracos": {
+      "dialogo": 4,
+      "firmeza": 3,
+      "estrategia": 3,
+      "empatia": 5,
+      "paz": 3,
+      "igualdade": 5,
+      "liberdade": 4,
+      "desenvolvimento": 1,
+      "ritmo": 2,
+      "quemResolve": 3
+    },
+    "card": {
+      "qualidades": [
+        "Defende quem é deixado de lado",
+        "Transforma valores em regras",
+        "Fala com o coração"
+      ],
+      "historia": "Primeira-dama que se recusou a ficar só nos bastidores. Presidiu a comissão da ONU que escreveu a Declaração Universal dos Direitos Humanos.",
+      "frase": "Onde começam, afinal, os direitos humanos universais? Em lugares pequenos, perto de casa.",
+      "fonteFrase": "Discurso na ONU, Nova York, 27 mar. 1958",
+      "ganchoRI": "Tema: Declaração Universal dos Direitos Humanos"
+    },
+    "ficha": {
+      "bio": "Primeira-dama dos EUA de 1933 a 1945, escreveu colunas de jornal, deu palestras e defendeu os direitos de mulheres, trabalhadores e minorias. Depois foi delegada dos EUA na ONU.",
+      "contexto": "Depois dos horrores da Segunda Guerra Mundial, os países queriam um documento que valesse para todos os seres humanos, em qualquer lugar.",
+      "oQueFez": "Conduziu as negociações entre países com visões muito diferentes até a aprovação da Declaração Universal dos Direitos Humanos, em 10 de dezembro de 1948.",
+      "curiosidades": [
+        "A Declaração é um dos documentos mais traduzidos do mundo, com centenas de idiomas.",
+        "Foi casada com Franklin D. Roosevelt, que também está neste teste."
+      ],
+      "porQueImportaRI": "A Declaração de 1948 é a base de todo o sistema internacional de direitos humanos e de muitas constituições, inclusive a brasileira de 1988."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_at_the_United_Nations,_circa_1946-1947_(3x4_cropped).jpg",
+      "arquivo": "fotos/eleanor.jpg",
+      "autor": "FDR Presidential Library & Museum",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "diana",
+    "nome": "Princesa Diana",
+    "pais": "Reino Unido",
+    "periodo": "1961–1997",
+    "categoria": "Diplomacia",
+    "titulo": "A Embaixadora do Cuidado",
+    "tracos": {
+      "dialogo": 1,
+      "firmeza": 2,
+      "estrategia": 2,
+      "empatia": 5,
+      "paz": 5,
+      "igualdade": 3,
+      "liberdade": 1,
+      "desenvolvimento": 2,
+      "ritmo": 3,
+      "quemResolve": 5
+    },
+    "card": {
+      "qualidades": [
+        "Acolhe sem preconceito",
+        "Usa a visibilidade para ajudar",
+        "Se aproxima de quem sofre"
+      ],
+      "historia": "Usou a fama para chamar atenção para causas esquecidas. Caminhou por um campo minado em Angola e ajudou a mobilizar o mundo pela proibição das minas terrestres.",
+      "frase": "O mundo ainda sabe muito pouco sobre o desperdício de vidas, membros e terras que as minas terrestres causam entre algumas das pessoas mais pobres da Terra.",
+      "fonteFrase": "Discurso na Royal Geographical Society, Londres, 12 jun. 1997",
+      "ganchoRI": "Tema: proibição das minas terrestres"
+    },
+    "ficha": {
+      "bio": "Diana Spencer foi princesa de Gales de 1981 a 1996. Apoiou dezenas de causas humanitárias e morreu num acidente de carro em Paris, em 1997.",
+      "contexto": "Nos anos 1990, havia milhões de minas terrestres enterradas em países que tinham passado por guerras, como Angola, Camboja e Bósnia. Elas feriam civis anos depois dos conflitos.",
+      "oQueFez": "Visitou Angola e a Bósnia em 1997 e deu visibilidade às vítimas. Também ajudou a combater o preconceito contra pessoas com HIV/aids nos anos 1980.",
+      "curiosidades": [
+        "Meses depois da sua morte, 122 países assinaram o Tratado de Ottawa, que proíbe as minas antipessoais.",
+        "Em 1987, apertou a mão de um paciente com aids sem luvas, num gesto que ajudou a derrubar o mito de que o vírus passava pelo toque."
+      ],
+      "porQueImportaRI": "O Tratado de Ottawa é um exemplo de como campanhas da sociedade civil, com apoio de figuras públicas, podem mudar o direito internacional."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Diana,_Princess_of_Wales_1997_(2).jpg",
+      "arquivo": "fotos/diana.jpg",
+      "autor": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA (Archived link)",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "malala",
+    "nome": "Malala Yousafzai",
+    "pais": "Paquistão",
+    "periodo": "1997–",
+    "categoria": "Ativismo e resistência",
+    "titulo": "A Corajosa",
+    "tracos": {
+      "dialogo": 2,
+      "firmeza": 5,
+      "estrategia": 2,
+      "empatia": 4,
+      "paz": 2,
+      "igualdade": 5,
+      "liberdade": 2,
+      "desenvolvimento": 4,
+      "ritmo": 3,
+      "quemResolve": 5
+    },
+    "card": {
+      "qualidades": [
+        "Fala alto pelo que acredita",
+        "Não se deixa intimidar",
+        "Acredita no poder da educação"
+      ],
+      "historia": "Desde os 11 anos defendia o direito das meninas de estudar. Sobreviveu a um ataque e virou a pessoa mais jovem a ganhar o Nobel da Paz, aos 17 anos.",
+      "frase": "Uma criança, um professor, um livro e uma caneta podem mudar o mundo.",
+      "fonteFrase": "Discurso na ONU, Nova York, 12 jul. 2013",
+      "ganchoRI": "Tema: educação de meninas no mundo"
+    },
+    "ficha": {
+      "bio": "Nasceu no vale do Swat, no Paquistão. Hoje é formada pela Universidade de Oxford e dirige o Fundo Malala, que apoia a educação de meninas.",
+      "contexto": "Em várias regiões do mundo, meninas ainda são impedidas de ir à escola. No vale do Swat, um grupo extremista chegou a proibir a educação de meninas no fim dos anos 2000.",
+      "oQueFez": "Escreveu um blog para a BBC contando a vida sob essas proibições. Em 2012, foi atacada por defender a educação. Depois de se recuperar, levou a causa à ONU e a governos do mundo todo.",
+      "curiosidades": [
+        "O dia do seu aniversário, 12 de julho, foi chamado pela ONU de \"Dia de Malala\".",
+        "Escreveu o livro \"Eu sou Malala\", traduzido para dezenas de idiomas."
+      ],
+      "porQueImportaRI": "A educação é um dos Objetivos de Desenvolvimento Sustentável (ODS 4). Malala mostra como uma jovem pode influenciar a agenda global."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_2023_portrait_2x3.jpg",
+      "arquivo": "fotos/malala.jpg",
+      "autor": "flowcomm",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "mlk",
+    "nome": "Martin Luther King Jr.",
+    "pais": "Estados Unidos",
+    "periodo": "1929–1968",
+    "categoria": "Ativismo e resistência",
+    "titulo": "O Sonhador",
+    "tracos": {
+      "dialogo": 4,
+      "firmeza": 4,
+      "estrategia": 3,
+      "empatia": 5,
+      "paz": 5,
+      "igualdade": 5,
+      "liberdade": 3,
+      "desenvolvimento": 1,
+      "ritmo": 3,
+      "quemResolve": 4
+    },
+    "card": {
+      "qualidades": [
+        "Inspira multidões com palavras",
+        "Luta sem violência",
+        "Acredita na igualdade de todos"
+      ],
+      "historia": "Pastor que liderou o movimento pelos direitos civis nos EUA. Organizou marchas e boicotes pacíficos contra as leis que separavam negros e brancos.",
+      "frase": "Eu tenho um sonho de que meus quatro filhos pequenos vão um dia viver em uma nação onde não serão julgados pela cor da sua pele, mas pelo conteúdo do seu caráter.",
+      "fonteFrase": "Discurso \"Eu tenho um sonho\", Washington, 28 ago. 1963",
+      "ganchoRI": "Tema: direitos civis e não violência"
+    },
+    "ficha": {
+      "bio": "Doutor em teologia, foi pastor batista em Montgomery e Atlanta. Foi assassinado em 1968, aos 39 anos.",
+      "contexto": "Até os anos 1960, no sul dos EUA, leis de segregação separavam negros e brancos em escolas, ônibus e restaurantes e dificultavam o voto da população negra.",
+      "oQueFez": "Liderou o boicote aos ônibus de Montgomery (1955–56), a Marcha sobre Washington (1963) e as marchas de Selma (1965). Suas campanhas levaram à Lei dos Direitos Civis (1964) e à Lei do Direito ao Voto (1965).",
+      "curiosidades": [
+        "Inspirou-se nos métodos de Gandhi, que também está neste teste.",
+        "Recebeu o Nobel da Paz em 1964, aos 35 anos."
+      ],
+      "porQueImportaRI": "Os métodos de resistência pacífica do movimento pelos direitos civis foram copiados por movimentos sociais no mundo todo."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg",
+      "arquivo": "fotos/mlk.jpg",
+      "autor": "Yoichi Okamoto",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "gandhi",
+    "nome": "Mahatma Gandhi",
+    "pais": "Índia",
+    "periodo": "1869–1948",
+    "categoria": "Ativismo e resistência",
+    "titulo": "O Pacificador",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 5,
+      "estrategia": 4,
+      "empatia": 3,
+      "paz": 5,
+      "igualdade": 3,
+      "liberdade": 5,
+      "desenvolvimento": 1,
+      "ritmo": 4,
+      "quemResolve": 5
+    },
+    "card": {
+      "qualidades": [
+        "Coerente entre o que diz e faz",
+        "Resiste com calma e firmeza",
+        "Mobiliza pelo exemplo"
+      ],
+      "historia": "Liderou a luta pela independência da Índia usando a resistência pacífica: marchas, greves e boicotes, sem armas.",
+      "frase": "A não violência é a maior força à disposição da humanidade. É mais poderosa que a mais poderosa arma de destruição criada pela engenhosidade humana.",
+      "fonteFrase": "Revista Harijan, 20 jul. 1935",
+      "ganchoRI": "Tema: descolonização e não violência"
+    },
+    "ficha": {
+      "bio": "Mohandas Karamchand Gandhi estudou direito em Londres e trabalhou na África do Sul, onde começou a lutar contra a discriminação. Foi assassinado em 1948.",
+      "contexto": "A Índia foi colônia britânica por cerca de 200 anos. No século 20, movimentos pela independência cresceram na Ásia e na África.",
+      "oQueFez": "Liderou campanhas de desobediência civil, como a Marcha do Sal (1930), de quase 400 km. A Índia ficou independente em 1947.",
+      "curiosidades": [
+        "\"Mahatma\" não é nome: é um título que significa \"grande alma\".",
+        "O dia do seu nascimento, 2 de outubro, é o Dia Internacional da Não Violência da ONU."
+      ],
+      "porQueImportaRI": "A independência da Índia abriu caminho para a descolonização de dezenas de países, que mudou o número de membros e o equilíbrio de poder na ONU."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg",
+      "arquivo": "fotos/gandhi.jpg",
+      "autor": "Elliott & Fry",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "parks",
+    "nome": "Rosa Parks",
+    "pais": "Estados Unidos",
+    "periodo": "1913–2005",
+    "categoria": "Ativismo e resistência",
+    "titulo": "A Determinada",
+    "tracos": {
+      "dialogo": 1,
+      "firmeza": 5,
+      "estrategia": 2,
+      "empatia": 3,
+      "paz": 3,
+      "igualdade": 5,
+      "liberdade": 3,
+      "desenvolvimento": 0,
+      "ritmo": 4,
+      "quemResolve": 5
+    },
+    "card": {
+      "qualidades": [
+        "Não abre mão da dignidade",
+        "Mostra que gestos simples mudam tudo",
+        "Corajosa no dia a dia"
+      ],
+      "historia": "Em 1955, se recusou a ceder seu lugar a um passageiro branco num ônibus. Foi presa, e o gesto deu início a um boicote que mudou os EUA.",
+      "frase": "O único cansaço que eu sentia era o cansaço de ceder.",
+      "fonteFrase": "Autobiografia \"Rosa Parks: My Story\", 1992",
+      "ganchoRI": "Tema: segregação racial e direitos civis"
+    },
+    "ficha": {
+      "bio": "Costureira e ativista em Montgomery, no Alabama. Trabalhava havia anos na NAACP, organização de defesa dos direitos da população negra.",
+      "contexto": "Em Montgomery, a lei obrigava passageiros negros a ceder o assento nos ônibus quando a área dos brancos enchia.",
+      "oQueFez": "Sua prisão levou ao boicote aos ônibus de Montgomery, que durou 381 dias. Em 1956, a Suprema Corte considerou a segregação nos ônibus inconstitucional.",
+      "curiosidades": [
+        "É chamada de \"mãe do movimento pelos direitos civis\".",
+        "Foi a primeira mulher a ter o corpo velado no Capitólio dos EUA."
+      ],
+      "porQueImportaRI": "Mostra como um ato individual pode virar movimento coletivo e mudar leis, uma lição para o ativismo de direitos humanos em todo o mundo."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg",
+      "arquivo": "fotos/parks.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "tutu",
+    "nome": "Desmond Tutu",
+    "pais": "África do Sul",
+    "periodo": "1931–2021",
+    "categoria": "Ativismo e resistência",
+    "titulo": "O Curador de Feridas",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 2,
+      "estrategia": 1,
+      "empatia": 5,
+      "paz": 5,
+      "igualdade": 4,
+      "liberdade": 2,
+      "desenvolvimento": 1,
+      "ritmo": 2,
+      "quemResolve": 4
+    },
+    "card": {
+      "qualidades": [
+        "Bem-humorado mesmo no difícil",
+        "Escuta todos os lados",
+        "Acredita no perdão"
+      ],
+      "historia": "Arcebispo que lutou contra o apartheid sem violência. Depois, presidiu a Comissão da Verdade e Reconciliação, que ouviu vítimas e responsáveis para ajudar o país a cicatrizar.",
+      "frase": "Faça o seu pouquinho de bem onde você estiver; são esses pouquinhos de bem juntos que transformam o mundo.",
+      "fonteFrase": "Atribuída a Tutu em \"Hope and Suffering\" (1984)",
+      "ganchoRI": "Tema: justiça de transição"
+    },
+    "ficha": {
+      "bio": "Professor e depois sacerdote anglicano, foi o primeiro arcebispo negro da Cidade do Cabo. Recebeu o Nobel da Paz em 1984.",
+      "contexto": "Com Mandela preso, líderes religiosos como Tutu eram algumas das poucas vozes contra o apartheid que o governo tinha dificuldade em calar.",
+      "oQueFez": "Defendeu boicotes e sanções internacionais contra o apartheid. De 1996 a 1998, presidiu a Comissão da Verdade e Reconciliação.",
+      "curiosidades": [
+        "Criou a expressão \"Nação Arco-Íris\" para descrever a nova África do Sul.",
+        "Era famoso pela risada e pelas danças em público."
+      ],
+      "porQueImportaRI": "A comissão que ele presidiu é estudada no mundo todo como modelo de \"justiça de transição\", inclusive pela Comissão Nacional da Verdade do Brasil."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Archbishop-Tutu-medium.jpg",
+      "arquivo": "fotos/tutu.jpg",
+      "autor": "Benny Gool",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "maathai",
+    "nome": "Wangari Maathai",
+    "pais": "Quênia",
+    "periodo": "1940–2011",
+    "categoria": "Ativismo e resistência",
+    "titulo": "A Semeadora",
+    "tracos": {
+      "dialogo": 2,
+      "firmeza": 4,
+      "estrategia": 3,
+      "empatia": 3,
+      "paz": 3,
+      "igualdade": 2,
+      "liberdade": 3,
+      "desenvolvimento": 5,
+      "ritmo": 3,
+      "quemResolve": 5
+    },
+    "card": {
+      "qualidades": [
+        "Começa pelo que está ao alcance",
+        "Pensa nas próximas gerações",
+        "Mobiliza a comunidade"
+      ],
+      "historia": "Fundou um movimento que plantou mais de 50 milhões de árvores no Quênia. Foi a primeira mulher africana a ganhar o Nobel da Paz.",
+      "frase": "Ao longo da história, chega um momento em que a humanidade é chamada a alcançar um novo nível de consciência. Esse momento é agora.",
+      "fonteFrase": "Discurso do Nobel da Paz, Oslo, 10 dez. 2004",
+      "ganchoRI": "Tema: meio ambiente e desenvolvimento sustentável"
+    },
+    "ficha": {
+      "bio": "Bióloga, foi a primeira mulher da África Oriental e Central a ter doutorado. Também foi deputada e vice-ministra do Meio Ambiente do Quênia.",
+      "contexto": "O desmatamento no Quênia secava rios e prejudicava a vida de mulheres do campo, que precisavam andar cada vez mais para buscar lenha e água.",
+      "oQueFez": "Fundou o Movimento Cinturão Verde (1977), que pagava mulheres para plantar árvores. O projeto juntou meio ambiente, renda e direitos.",
+      "curiosidades": [
+        "Gostava de contar a história do beija-flor que leva gotas de água para apagar um incêndio: \"Estou fazendo o que posso\".",
+        "Foi presa várias vezes por proteger parques de Nairóbi contra construções."
+      ],
+      "porQueImportaRI": "Ligou meio ambiente, paz e direitos humanos, ideia hoje central na agenda climática e nos Objetivos de Desenvolvimento Sustentável."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai_in_2001.jpg",
+      "arquivo": "fotos/maathai.jpg",
+      "autor": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "aquino",
+    "nome": "Corazón Aquino",
+    "pais": "Filipinas",
+    "periodo": "1933–2009",
+    "categoria": "Ativismo e resistência",
+    "titulo": "A Democrata",
+    "tracos": {
+      "dialogo": 4,
+      "firmeza": 3,
+      "estrategia": 2,
+      "empatia": 4,
+      "paz": 5,
+      "igualdade": 2,
+      "liberdade": 5,
+      "desenvolvimento": 2,
+      "ritmo": 4,
+      "quemResolve": 4
+    },
+    "card": {
+      "qualidades": [
+        "Coragem tranquila",
+        "Une as pessoas em torno da democracia",
+        "Recomeça depois da perda"
+      ],
+      "historia": "Dona de casa que virou símbolo da redemocratização das Filipinas. Liderou o movimento \"Poder Popular\", que restaurou a democracia de forma pacífica.",
+      "frase": "Dando, recebemos; perdendo, encontramos; e da derrota arrancamos a nossa vitória.",
+      "fonteFrase": "Discurso ao Congresso dos EUA, Washington, 18 set. 1986",
+      "ganchoRI": "Tema: redemocratização pacífica"
+    },
+    "ficha": {
+      "bio": "Foi a primeira mulher presidente das Filipinas e da Ásia (1986–1992). Entrou na política depois do assassinato do marido, o senador Benigno Aquino.",
+      "contexto": "As Filipinas viveram sob regime autoritário de 1972 a 1986, com eleições contestadas e oposição perseguida.",
+      "oQueFez": "Em 1986, milhões de pessoas foram às ruas de forma pacífica para defender o resultado das eleições, no movimento \"Poder Popular\". Como presidente, aprovou uma nova Constituição democrática (1987).",
+      "curiosidades": [
+        "Usava sempre amarelo, cor que virou símbolo do movimento.",
+        "A revista Time a escolheu como \"Mulher do Ano\" em 1986."
+      ],
+      "porQueImportaRI": "O \"Poder Popular\" inspirou outras transições pacíficas para a democracia nos anos 1980 e 1990, inclusive no Leste Europeu."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Corazon_Aquino_1986.jpg",
+      "arquivo": "fotos/aquino.jpg",
+      "autor": "Airman Gerald B. Johnson",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "zilda",
+    "nome": "Zilda Arns",
+    "pais": "Brasil",
+    "periodo": "1934–2010",
+    "categoria": "Ativismo e resistência",
+    "titulo": "A Cuidadora",
+    "tracos": {
+      "dialogo": 2,
+      "firmeza": 2,
+      "estrategia": 4,
+      "empatia": 5,
+      "paz": 3,
+      "igualdade": 4,
+      "liberdade": 0,
+      "desenvolvimento": 5,
+      "ritmo": 1,
+      "quemResolve": 5
+    },
+    "card": {
+      "qualidades": [
+        "Organiza a solidariedade",
+        "Pensa em soluções simples e eficazes",
+        "Cuida de quem mais precisa"
+      ],
+      "historia": "Médica que criou a Pastoral da Criança, uma rede de voluntários que ajudou a reduzir a mortalidade infantil no Brasil. Levou o modelo a outros países.",
+      "frase": "A paz é uma conquista coletiva.",
+      "fonteFrase": "Discurso preparado para palestra em Porto Príncipe, Haiti, 12 jan. 2010",
+      "ganchoRI": "Tema: saúde pública e cooperação Sul-Sul"
+    },
+    "ficha": {
+      "bio": "Pediatra e sanitarista nascida em Santa Catarina. Fundou a Pastoral da Criança (1983) e a Pastoral da Pessoa Idosa. Morreu no terremoto do Haiti, em 2010, onde estava em missão.",
+      "contexto": "Nos anos 1980, muitas crianças brasileiras morriam antes de completar um ano, por desnutrição e diarreia, problemas que podiam ser evitados com cuidados simples.",
+      "oQueFez": "Treinou centenas de milhares de voluntários para acompanhar gestantes e bebês em comunidades pobres, ensinando o soro caseiro e a importância do aleitamento materno. O modelo foi levado para mais de 20 países.",
+      "curiosidades": [
+        "Foi indicada várias vezes ao Nobel da Paz.",
+        "Era irmã de Dom Paulo Evaristo Arns, cardeal conhecido pela defesa dos direitos humanos."
+      ],
+      "porQueImportaRI": "A Pastoral da Criança é um exemplo de cooperação Sul-Sul: soluções criadas no Brasil e compartilhadas com países da América Latina, da África e o Haiti."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Zilda_Arns.jpeg",
+      "arquivo": "fotos/zilda.jpg",
+      "autor": "Wilson Dias/ABr",
+      "licenca": "CC BY 3.0 br"
+    }
+  },
+  {
+    "id": "tiradentes",
+    "nome": "Tiradentes",
+    "pais": "Brasil",
+    "periodo": "1746–1792",
+    "categoria": "Ativismo e resistência",
+    "titulo": "O Idealista",
+    "tracos": {
+      "dialogo": 1,
+      "firmeza": 5,
+      "estrategia": 2,
+      "empatia": 2,
+      "paz": 1,
+      "igualdade": 3,
+      "liberdade": 5,
+      "desenvolvimento": 2,
+      "ritmo": 5,
+      "quemResolve": 4
+    },
+    "card": {
+      "qualidades": [
+        "Fiel aos seus ideais",
+        "Assume responsabilidades",
+        "Sonha com um país livre"
+      ],
+      "historia": "Participou da Inconfidência Mineira, movimento que queria a independência de Minas Gerais em relação a Portugal. Foi o único condenado à morte do grupo.",
+      "frase": "Libertas quae sera tamen. (Liberdade ainda que tardia.)",
+      "fonteFrase": "Lema da bandeira proposta pelos inconfidentes mineiros, 1789",
+      "ganchoRI": "Tema: colonialismo e independência"
+    },
+    "ficha": {
+      "bio": "Joaquim José da Silva Xavier foi alferes (oficial militar), minerador e dentista prático, por isso o apelido. Foi executado no Rio de Janeiro em 1792.",
+      "contexto": "No século 18, Portugal cobrava impostos pesados sobre o ouro de Minas Gerais. A independência dos EUA (1776) inspirava ideias de liberdade nas colônias.",
+      "oQueFez": "Defendeu a ideia de uma república independente e divulgou o plano dos inconfidentes. Quando o movimento foi descoberto, assumiu a responsabilidade.",
+      "curiosidades": [
+        "21 de abril, o dia da sua morte, é feriado nacional.",
+        "Não existe retrato feito em vida: as imagens dele, como a desta página, foram criadas depois por artistas."
+      ],
+      "porQueImportaRI": "A Inconfidência mostra como as ideias da independência dos EUA e do Iluminismo circulavam entre as colônias e inspiravam movimentos de autonomia."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_da_Silva_Xavier,_o_Tiradentes.jpg",
+      "arquivo": "fotos/tiradentes.jpg",
+      "autor": "Roque Gameiro",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "zumbi",
+    "nome": "Zumbi dos Palmares",
+    "pais": "Brasil",
+    "periodo": "c. 1655–1695",
+    "categoria": "Ativismo e resistência",
+    "titulo": "O Guardião da Liberdade",
+    "tracos": {
+      "dialogo": 1,
+      "firmeza": 5,
+      "estrategia": 5,
+      "empatia": 3,
+      "paz": 1,
+      "igualdade": 4,
+      "liberdade": 5,
+      "desenvolvimento": 3,
+      "ritmo": 5,
+      "quemResolve": 4
+    },
+    "card": {
+      "qualidades": [
+        "Corajoso e decidido",
+        "Protege sua comunidade",
+        "Não aceita a injustiça"
+      ],
+      "historia": "Último líder do Quilombo dos Palmares, comunidade formada por pessoas que fugiram da escravidão. Palmares resistiu por quase cem anos.",
+      "frase": null,
+      "fonteFrase": "Não há falas de Zumbi registradas por escrito. Sua memória é celebrada no 20 de novembro, Dia Nacional de Zumbi e da Consciência Negra.",
+      "ganchoRI": "Tema: escravidão e resistência no Atlântico"
+    },
+    "ficha": {
+      "bio": "Nasceu livre em Palmares, foi capturado ainda criança e criado por um padre, mas voltou ao quilombo aos 15 anos. Tornou-se seu líder por volta de 1678 e foi morto em 20 de novembro de 1695.",
+      "contexto": "Entre os séculos 16 e 19, milhões de africanos foram trazidos à força ao Brasil para trabalhar como escravizados. Quilombos eram comunidades livres criadas por quem conseguia fugir.",
+      "oQueFez": "Liderou a defesa de Palmares, que chegou a reunir milhares de pessoas na Serra da Barriga, em Alagoas, com agricultura, comércio e organização próprias.",
+      "curiosidades": [
+        "O dia da sua morte, 20 de novembro, é feriado nacional desde 2024.",
+        "A Serra da Barriga é Patrimônio Cultural do Mercosul."
+      ],
+      "porQueImportaRI": "O tráfico de pessoas escravizadas ligou África, Europa e Américas por séculos. Entender Palmares ajuda a entender o Atlântico e a história do racismo no mundo."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Ant%C3%B4nio_Parreiras_-_Zumbi_2.jpg",
+      "arquivo": "fotos/zumbi.jpg",
+      "autor": "Antônio Parreiras",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "tubman",
+    "nome": "Harriet Tubman",
+    "pais": "Estados Unidos",
+    "periodo": "c. 1822–1913",
+    "categoria": "Ativismo e resistência",
+    "titulo": "A Libertadora",
+    "tracos": {
+      "dialogo": 1,
+      "firmeza": 4,
+      "estrategia": 4,
+      "empatia": 5,
+      "paz": 2,
+      "igualdade": 5,
+      "liberdade": 4,
+      "desenvolvimento": 0,
+      "ritmo": 4,
+      "quemResolve": 5
+    },
+    "card": {
+      "qualidades": [
+        "Corajosa e prática",
+        "Planeja cada passo",
+        "Volta para buscar os outros"
+      ],
+      "historia": "Nasceu escravizada, fugiu e depois voltou várias vezes ao sul dos EUA para guiar outras pessoas à liberdade pela \"Ferrovia Subterrânea\", uma rede secreta de fuga.",
+      "frase": "Eu fui condutora da Ferrovia Subterrânea por oito anos, e posso dizer o que a maioria dos condutores não pode: nunca descarrilei meu trem e nunca perdi um passageiro.",
+      "fonteFrase": "Discurso em convenção pelo voto feminino, 1896 (registrado pela imprensa)",
+      "ganchoRI": "Tema: escravidão e direitos humanos"
+    },
+    "ficha": {
+      "bio": "Nasceu em Maryland com o nome de Araminta Ross. Fugiu em 1849. Na Guerra Civil, trabalhou como enfermeira, espiã e guia do exército da União.",
+      "contexto": "Nos EUA do século 19, a escravidão era legal nos estados do sul. A Ferrovia Subterrânea era uma rede de casas e pessoas que escondiam quem fugia rumo ao norte e ao Canadá.",
+      "oQueFez": "Guiou cerca de 70 pessoas em 13 viagens e passou instruções a muitas outras. Em 1863, ajudou a planejar uma ação militar que libertou mais de 700 pessoas.",
+      "curiosidades": [
+        "Era chamada de \"Moisés\" por guiar seu povo à liberdade.",
+        "Depois da guerra, também lutou pelo direito de voto das mulheres."
+      ],
+      "porQueImportaRI": "A luta contra a escravidão foi um dos primeiros movimentos de direitos humanos que atravessou fronteiras, ligando ativistas dos EUA, do Canadá e da Europa."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg",
+      "arquivo": "fotos/tubman.jpg",
+      "autor": "Powelson, Benjamin F. 1823 - 1885",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "hammarskjold",
+    "nome": "Dag Hammarskjöld",
+    "pais": "Suécia",
+    "periodo": "1905–1961",
+    "categoria": "Diplomacia",
+    "titulo": "O Guardião da ONU",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 5,
+      "estrategia": 4,
+      "empatia": 2,
+      "paz": 5,
+      "igualdade": 3,
+      "liberdade": 3,
+      "desenvolvimento": 2,
+      "ritmo": 1,
+      "quemResolve": 0
+    },
+    "card": {
+      "qualidades": [
+        "Discreto e eficiente",
+        "Firme diante das grandes potências",
+        "Pensa na instituição acima de tudo"
+      ],
+      "historia": "Segundo secretário-geral da ONU. Criou a ideia das forças de paz da ONU, os \"capacetes azuis\", e enfrentou pressões das grandes potências para manter a organização independente.",
+      "frase": "A ONU não foi criada para levar a humanidade ao paraíso, mas para salvá-la do inferno.",
+      "fonteFrase": "Discurso de maio de 1954",
+      "ganchoRI": "Tema: missões de paz da ONU"
+    },
+    "ficha": {
+      "bio": "Economista sueco, foi secretário-geral da ONU de 1953 até morrer num acidente de avião na África, em 1961, durante uma missão de paz no Congo.",
+      "contexto": "Nos anos 1950, a Guerra Fria paralisava o Conselho de Segurança, e muitos países da Ásia e da África estavam se tornando independentes.",
+      "oQueFez": "Negociou a libertação de pilotos americanos presos na China (1955), organizou a primeira grande força de paz da ONU, na crise de Suez (1956), e defendeu os países pequenos e recém-independentes.",
+      "curiosidades": [
+        "É o único a receber o Nobel da Paz depois de morto, em 1961.",
+        "Seu diário espiritual, publicado com o título \"Marcas\", virou um livro famoso."
+      ],
+      "porQueImportaRI": "Definiu o papel do secretário-geral como mediador independente e criou o modelo das missões de paz que a ONU usa até hoje, inclusive com tropas brasileiras."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Dag_Hammarskj%C3%B6ld.jpg",
+      "arquivo": "fotos/hammarskjold.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "brandt",
+    "nome": "Willy Brandt",
+    "pais": "Alemanha Ocidental",
+    "periodo": "1913–1992",
+    "categoria": "Líder de Estado",
+    "titulo": "O Construtor de Pontes",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 3,
+      "estrategia": 4,
+      "empatia": 3,
+      "paz": 5,
+      "igualdade": 3,
+      "liberdade": 4,
+      "desenvolvimento": 3,
+      "ritmo": 3,
+      "quemResolve": 1
+    },
+    "card": {
+      "qualidades": [
+        "Estende a mão ao adversário",
+        "Assume os erros do passado",
+        "Aposta na aproximação"
+      ],
+      "historia": "Chanceler da Alemanha Ocidental que buscou aproximação com os países do bloco soviético em plena Guerra Fria. Seu gesto de se ajoelhar em Varsóvia virou símbolo de reconciliação.",
+      "frase": "Agora cresce junto o que pertence junto.",
+      "fonteFrase": "Declaração após a queda do Muro de Berlim, 10 nov. 1989",
+      "ganchoRI": "Tema: Guerra Fria e reconciliação europeia"
+    },
+    "ficha": {
+      "bio": "Jornalista, fugiu da Alemanha nazista e viveu exilado na Noruega. Foi prefeito de Berlim Ocidental e chanceler de 1969 a 1974.",
+      "contexto": "Depois da Segunda Guerra, a Alemanha ficou dividida em duas, e a Europa, separada pela \"Cortina de Ferro\". As feridas da guerra com a Polônia e a União Soviética continuavam abertas.",
+      "oQueFez": "Criou a Ostpolitik (\"política para o Leste\"): tratados com a URSS, a Polônia e a Alemanha Oriental que diminuíram a tensão. Depois, presidiu uma comissão sobre a desigualdade entre países ricos e pobres.",
+      "curiosidades": [
+        "Em 1970, ajoelhou-se em silêncio diante do memorial do Gueto de Varsóvia, um gesto de pedido de perdão.",
+        "Recebeu o Nobel da Paz em 1971."
+      ],
+      "porQueImportaRI": "A Ostpolitik é um exemplo clássico de diplomacia de aproximação: mostra como diminuir a tensão com rivais sem abrir mão dos próprios valores."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg",
+      "arquivo": "fotos/brandt.jpg",
+      "autor": "Engelbert Reineke",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "havel",
+    "nome": "Václav Havel",
+    "pais": "Tchecoslováquia / República Tcheca",
+    "periodo": "1936–2011",
+    "categoria": "Líder de Estado",
+    "titulo": "O Dramaturgo da Liberdade",
+    "tracos": {
+      "dialogo": 3,
+      "firmeza": 5,
+      "estrategia": 2,
+      "empatia": 3,
+      "paz": 3,
+      "igualdade": 2,
+      "liberdade": 5,
+      "desenvolvimento": 1,
+      "ritmo": 4,
+      "quemResolve": 5
+    },
+    "card": {
+      "qualidades": [
+        "Fiel à verdade",
+        "Corajoso e criativo",
+        "Acredita na força das pessoas comuns"
+      ],
+      "historia": "Escritor de peças de teatro que foi preso por defender a liberdade de expressão. Liderou a Revolução de Veludo, que trouxe a democracia sem violência, e virou presidente.",
+      "frase": "A verdade e o amor devem prevalecer sobre a mentira e o ódio.",
+      "fonteFrase": "Lema de Havel durante a Revolução de Veludo, 1989",
+      "ganchoRI": "Tema: Revolução de Veludo e sociedade civil"
+    },
+    "ficha": {
+      "bio": "Dramaturgo tcheco, foi preso várias vezes nos anos 1970 e 1980. Foi o último presidente da Tchecoslováquia (1989–1992) e o primeiro da República Tcheca (1993–2003).",
+      "contexto": "A Tchecoslováquia era governada por um partido único ligado à União Soviética. Em 1968, uma tentativa de abertura, a \"Primavera de Praga\", foi interrompida por tanques.",
+      "oQueFez": "Foi um dos autores da Carta 77, um documento que pedia respeito aos direitos humanos. Em 1989, liderou protestos pacíficos que levaram à primeira eleição livre em mais de 40 anos.",
+      "curiosidades": [
+        "A revolução foi chamada \"de Veludo\" porque aconteceu sem tiros.",
+        "Em 1993, o país se dividiu pacificamente em República Tcheca e Eslováquia."
+      ],
+      "porQueImportaRI": "Mostra o poder da sociedade civil nas transições para a democracia e como a Europa Central entrou depois na União Europeia e na OTAN."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Vaclav_Havel.jpg",
+      "arquivo": "fotos/havel.jpg",
+      "autor": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "arias",
+    "nome": "Óscar Arias",
+    "pais": "Costa Rica",
+    "periodo": "1940–",
+    "categoria": "Líder de Estado",
+    "titulo": "O Arquiteto da Paz",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 2,
+      "estrategia": 3,
+      "empatia": 3,
+      "paz": 5,
+      "igualdade": 1,
+      "liberdade": 4,
+      "desenvolvimento": 4,
+      "ritmo": 2,
+      "quemResolve": 1
+    },
+    "card": {
+      "qualidades": [
+        "Convence pela palavra",
+        "Junta vizinhos em torno de um plano",
+        "Acredita que a paz é possível"
+      ],
+      "historia": "Presidente da Costa Rica, país que não tem exército. Criou um plano que reuniu os presidentes da América Central para acabar com as guerras civis da região.",
+      "frase": "A paz é um processo que nunca termina, fruto de muitas decisões, de muitas pessoas, em muitos países.",
+      "fonteFrase": "Discurso de aceitação do Nobel da Paz, Oslo, 10 dez. 1987",
+      "ganchoRI": "Tema: paz na América Central"
+    },
+    "ficha": {
+      "bio": "Economista e cientista político, foi presidente da Costa Rica de 1986 a 1990 e de 2006 a 2010.",
+      "contexto": "Nos anos 1980, Nicarágua, El Salvador e Guatemala viviam guerras civis, e a região era palco da disputa entre EUA e URSS.",
+      "oQueFez": "Propôs o Acordo de Esquipulas II (1987), em que cinco presidentes centro-americanos se comprometeram com cessar-fogo, anistia, diálogo e eleições livres.",
+      "curiosidades": [
+        "A Costa Rica aboliu o exército em 1948 e investe esse dinheiro em educação e saúde.",
+        "Recebeu o Nobel da Paz em 1987 e usou o prêmio para criar uma fundação pela paz."
+      ],
+      "porQueImportaRI": "Esquipulas é um exemplo de solução regional: os próprios vizinhos negociaram a paz, com apoio da ONU, em vez de esperar as superpotências."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:%C3%93scar_Arias_(cropped).jpg",
+      "arquivo": "fotos/arias.jpg",
+      "autor": "MadriCR",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "reboucas",
+    "nome": "André Rebouças",
+    "pais": "Brasil",
+    "periodo": "1838–1898",
+    "categoria": "Ativismo e resistência",
+    "titulo": "O Engenheiro da Liberdade",
+    "tracos": {
+      "dialogo": 2,
+      "firmeza": 3,
+      "estrategia": 5,
+      "empatia": 3,
+      "paz": 1,
+      "igualdade": 5,
+      "liberdade": 3,
+      "desenvolvimento": 5,
+      "ritmo": 4,
+      "quemResolve": 3
+    },
+    "card": {
+      "qualidades": [
+        "Planeja soluções concretas",
+        "Une técnica e justiça social",
+        "Persistente contra o preconceito"
+      ],
+      "historia": "Engenheiro negro brilhante, construiu docas e ferrovias no Brasil do século 19. Foi um dos líderes da campanha abolicionista e pensou em como dar terra e trabalho aos libertos.",
+      "frase": "Quem possui a terra possui o homem.",
+      "fonteFrase": "Escritos de André Rebouças, 1890",
+      "ganchoRI": "Tema: abolição e desenvolvimento"
+    },
+    "ficha": {
+      "bio": "Baiano, filho de um conselheiro do Império, formou-se engenheiro e estudou na Europa. Depois da Proclamação da República, acompanhou Dom Pedro II no exílio.",
+      "contexto": "No Brasil do século 19, a economia dependia do trabalho escravizado e das grandes fazendas. Poucos negros conseguiam estudar e chegar a profissões de prestígio.",
+      "oQueFez": "Projetou obras como as docas do Rio de Janeiro. Ajudou a fundar sociedades abolicionistas e defendeu que a abolição viesse acompanhada de acesso à terra e à educação.",
+      "curiosidades": [
+        "O Túnel Rebouças, no Rio de Janeiro, e a Avenida Rebouças, em São Paulo, homenageiam ele e o irmão, também engenheiro.",
+        "Era amigo de Joaquim Nabuco, que também está neste teste."
+      ],
+      "porQueImportaRI": "Mostra que o debate sobre a abolição ia além do fim da escravidão: incluía desenvolvimento, terra e inclusão, temas ligados hoje à agenda de desenvolvimento da ONU."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Andre_rebou%C3%A7as_00.JPG",
+      "arquivo": "fotos/reboucas.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "bunche",
+    "nome": "Ralph Bunche",
+    "pais": "Estados Unidos",
+    "periodo": "1904–1971",
+    "categoria": "Diplomacia",
+    "titulo": "O Mediador Incansável",
+    "tracos": {
+      "dialogo": 5,
+      "firmeza": 3,
+      "estrategia": 4,
+      "empatia": 2,
+      "paz": 5,
+      "igualdade": 3,
+      "liberdade": 2,
+      "desenvolvimento": 4,
+      "ritmo": 1,
+      "quemResolve": 1
+    },
+    "card": {
+      "qualidades": [
+        "Paciente nas negociações difíceis",
+        "Ouve todos os lados",
+        "Liga paz a uma vida melhor"
+      ],
+      "historia": "Diplomata da ONU que mediou o primeiro cessar-fogo entre Israel e os países árabes. Foi o primeiro negro a receber um Prêmio Nobel.",
+      "frase": "A paz, para ter sentido para muitos que só conheceram o sofrimento, deve se traduzir em pão ou arroz, abrigo, saúde e educação, além de liberdade e dignidade humana.",
+      "fonteFrase": "Palestra do Nobel da Paz, Oslo, 11 dez. 1950",
+      "ganchoRI": "Tema: mediação internacional e descolonização"
+    },
+    "ficha": {
+      "bio": "Neto de pessoas escravizadas, tornou-se doutor em ciência política por Harvard. Trabalhou na criação da ONU e foi subsecretário-geral da organização.",
+      "contexto": "Logo após a criação da ONU, o conflito entre Israel e os países árabes, em 1948, foi um dos primeiros grandes testes da organização.",
+      "oQueFez": "Negociou os acordos de armistício de 1949 entre Israel, Egito, Jordânia, Líbano e Síria. Também ajudou a organizar o sistema da ONU que acompanhou a independência de colônias.",
+      "curiosidades": [
+        "Durante as negociações, mandou fazer pratos de cerâmica para dar de presente às delegações quando o acordo saísse.",
+        "Também participou da Marcha sobre Washington com Martin Luther King Jr., em 1963."
+      ],
+      "porQueImportaRI": "É um dos fundadores da mediação da ONU e das missões de paz, e uma ponte entre a luta pelos direitos civis e a diplomacia internacional."
+    },
+    "foto": {
+      "url": "https://commons.wikimedia.org/wiki/File:Ralph_Bunche_1955.jpg",
+      "arquivo": "fotos/bunche.jpg",
+      "autor": "Bettmann Archive",
+      "licenca": "Public domain"
+    }
+  }
+]

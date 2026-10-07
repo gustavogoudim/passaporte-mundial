@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E✈️%3C/text%3E%3C/svg%3E">
+<title>Passaporte Mundial · Facilitador</title>
+<link rel="stylesheet" href="css/estilo.css">
+<style>
+  main { max-width: 1100px; }
+  .abas { display: flex; gap: 8px; flex-wrap: wrap; }
+  .abas .btn { width: auto; flex: 1 1 160px; }
+  .abas .btn[aria-selected="true"] { background: var(--petroleo); color: #fff; }
+  .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+  .fig {
+    position: relative; display: grid; justify-items: center; gap: 4px; padding: 10px; text-align: center;
+    border: 2px solid var(--borda); border-radius: var(--raio); background: var(--papel);
+    font: inherit; font-size: 14px; color: var(--texto); cursor: pointer; min-height: 48px;
+  }
+  .fig img { width: 76px; height: 76px; object-fit: cover; border-radius: 50%; }
+  .fig strong { font-size: 15px; }
+  .fig .n {
+    position: absolute; top: 6px; right: 6px; min-width: 32px; padding: 2px 8px; border-radius: 99px;
+    background: var(--ambar); color: #1d2a30; font-weight: 800;
+  }
+  .fig .n:empty { display: none; }
+  .ranking li { margin-bottom: 4px; }
+  .linha-acoes { display: flex; gap: 8px; flex-wrap: wrap; }
+  .linha-acoes .btn { width: auto; }
+  .debate li { margin-bottom: 12px; font-size: 19px; }
+  h2.cat { margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Passaporte Mundial · Facilitador</h1>
+  <p class="miudo">Use só no seu aparelho. Nada sai dele: a contagem fica salva neste navegador.</p>
+  <div class="abas" role="tablist">
+    <button class="btn" role="tab" data-aba="contador" aria-selected="true">Contador da turma</button>
+    <button class="btn" role="tab" data-aba="mural" aria-selected="false">Mural das figuras</button>
+    <button class="btn" role="tab" data-aba="debate" aria-selected="false">Roteiro de debate</button>
+  </div>
+
+  <section id="contador" role="tabpanel">
+    <p>Quando cada aluno disser o resultado, toque na figura. Toque segurando (ou com o botão direito) para tirar um.</p>
+    <div class="linha-acoes">
+      <button class="btn" id="zerar">Zerar contagem</button>
+    </div>
+    <p><strong id="total">0</strong> resultados registrados.</p>
+    <div class="grade" id="grade-contador"></div>
+    <h2>Resumo da turma</h2>
+    <ol class="ranking" id="ranking"></ol>
+    <p id="resumo-cat"></p>
+  </section>
+
+  <section id="mural" role="tabpanel" hidden></section>
+
+  <section id="debate" role="tabpanel" hidden>
+    <h2>Perguntas para depois do teste</h2>
+    <ol class="debate">
+      <li>Você se reconheceu no resultado? O que combinou e o que não combinou?</li>
+      <li>Olhe as três qualidades da sua figura. Em que situação da sua vida você já usou uma delas?</li>
+      <li>Muitas dessas figuras não tinham cargo nenhum quando começaram. O que isso diz sobre quem pode mudar o mundo?</li>
+      <li>Diálogo e firmeza parecem opostos. Alguém do seu top 3 conseguiu juntar os dois? Como?</li>
+      <li>Quais figuras da turma lidaram com o mesmo tema (paz, direitos, liberdade, desenvolvimento) de jeitos diferentes?</li>
+      <li>Escolha um "gancho de RI" do seu resultado. Esse tema ainda existe no mundo hoje? Onde?</li>
+      <li>Se a turma inteira fosse um país, que tipo de líder ela seria, olhando o resumo da contagem?</li>
+    </ol>
+    <p class="miudo">Lembrete: todas as figuras são democráticas e todo resultado é positivo. Evite comparar alunos como "melhor" ou "pior".</p>
+  </section>
+</main>
+
+<script type="module">
+  const CHAVE = 'passaporte:facilitador:v1';
+  const CATS = ['Líder de Estado', 'Diplomacia', 'Ativismo e resistência'];
+  const figuras = window.DADOS?.figuras ?? await fetch('figuras.json').then((r) => r.json());
+  let cont = {};
+  try { cont = JSON.parse(localStorage.getItem(CHAVE)) ?? {}; } catch {}
+  const salvar = () => { try { localStorage.setItem(CHAVE, JSON.stringify(cont)); } catch {} };
+  const el = (t, p = {}, ...f) => { const e = Object.assign(document.createElement(t), p); e.append(...f); return e; };
+
+  function cartao(f, comContador) {
+    const b = el('button', { className: 'fig', type: 'button' },
+      el('img', { src: f.foto.arquivo, alt: '', loading: 'lazy' }),
+      el('strong', { textContent: f.nome }), el('span', { className: 'miudo', textContent: f.titulo }));
+    if (comContador) {
+      const n = el('span', { className: 'n' });
+      b.append(n);
+      const atualiza = () => { n.textContent = cont[f.id] || ''; b.ariaLabel = `${f.nome}: ${cont[f.id] || 0}`; };
+      b.onclick = () => { cont[f.id] = (cont[f.id] || 0) + 1; salvar(); atualiza(); resumo(); };
+      b.oncontextmenu = (e) => { e.preventDefault(); if (cont[f.id]) cont[f.id]--; salvar(); atualiza(); resumo(); };
+      atualiza();
+    }
+    return b;
+  }
+
+  function resumo() {
+    const total = Object.values(cont).reduce((s, x) => s + x, 0);
+    document.getElementById('total').textContent = total;
+    const top = figuras.filter((f) => cont[f.id]).sort((a, b) => cont[b.id] - cont[a.id]);
+    document.getElementById('ranking').replaceChildren(...top.map((f) => el('li', { textContent: `${f.nome} (${f.titulo}): ${cont[f.id]}` })));
+    const porCat = CATS.map((c) => `${c}: ${figuras.filter((f) => f.categoria === c).reduce((s, f) => s + (cont[f.id] || 0), 0)}`);
+    document.getElementById('resumo-cat').textContent = total ? porCat.join(' · ') : '';
+  }
+
+  document.getElementById('grade-contador').append(...figuras.map((f) => cartao(f, true)));
+  document.getElementById('mural').append(...CATS.flatMap((c) => [
+    el('h2', { className: 'cat', textContent: c }),
+    el('div', { className: 'grade' }, ...figuras.filter((f) => f.categoria === c).map((f) => cartao(f, false))),
+  ]));
+  document.getElementById('zerar').onclick = () => {
+    if (confirm('Zerar a contagem da turma?')) { cont = {}; salvar(); location.reload(); }
+  };
+  for (const aba of document.querySelectorAll('[data-aba]')) {
+    aba.onclick = () => {
+      for (const a of document.querySelectorAll('[data-aba]')) {
+        a.setAttribute('aria-selected', String(a === aba));
+        document.getElementById(a.dataset.aba).hidden = a !== aba;
+      }
+    };
+  }
+  resumo();
+</script>
+</body>
+</html>

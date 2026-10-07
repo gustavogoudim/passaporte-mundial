@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1f3a">
+<meta name="description" content="Com qual figura política mundial você se parece? 20 situações, 36 figuras que mudaram o mundo.">
+<meta property="og:title" content="Passaporte Mundial">
+<meta property="og:description" content="Com qual figura política mundial você se parece? Faça o teste!">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E✈️%3C/text%3E%3C/svg%3E">
+<title>Passaporte Mundial</title>
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<div class="ceu" aria-hidden="true"></div>
+<main id="app" tabindex="-1">
+
+  <section id="tela-inicio" class="tela">
+    <div class="capa">
+      <div class="globo" aria-hidden="true">
+        <div class="globo-terra">🌍</div>
+        <div class="orbita"><span>✈️</span></div>
+      </div>
+      <p class="pre-titulo">Teste de personalidade política</p>
+      <h1>Passaporte<br><span>Mundial</span></h1>
+      <p class="sub">Com qual figura que mudou o mundo você se parece?</p>
+      <div class="esteira" aria-hidden="true"><div class="esteira-faixa"></div></div>
+      <ul class="fatos">
+        <li><strong>20</strong> situações</li>
+        <li><strong>36</strong> figuras</li>
+        <li><strong>5</strong> minutos</li>
+      </ul>
+      <button class="btn principal pulsar" data-acao="comecar">Embarcar agora ✈️</button>
+      <button class="btn claro" data-acao="continuar" hidden>Continuar de onde parei</button>
+      <button class="btn texto" data-acao="como">Como funciona?</button>
+      <p class="miudo">Não há resposta certa ou errada. Nenhum dado seu é coletado.</p>
+    </div>
+  </section>
+
+  <section id="tela-pergunta" class="tela" hidden>
+    <div class="rota" role="progressbar" aria-valuemin="1" aria-valuemax="20">
+      <div class="rota-linha"><span class="rota-feito"></span><span class="aviao" aria-hidden="true">✈️</span></div>
+      <p class="contador"></p>
+    </div>
+    <div class="cartao-pergunta">
+      <p class="tag-tipo"></p>
+      <h2 class="enunciado" tabindex="-1"></h2>
+      <div class="alternativas" role="list"></div>
+    </div>
+    <button class="btn texto voltar" data-acao="voltar">← Voltar</button>
+  </section>
+
+  <section id="tela-revelando" class="tela" hidden>
+    <div class="revelando" role="status" aria-live="polite">
+      <div class="roleta" aria-hidden="true"><img alt=""></div>
+      <p class="revelando-texto">Carimbando seu passaporte…</p>
+      <p class="revelando-nome" aria-hidden="true"></p>
+    </div>
+  </section>
+
+  <section id="tela-resultado" class="tela" hidden>
+    <article class="visto" aria-labelledby="res-nome">
+      <div class="visto-faixa"><span>PASSAPORTE MUNDIAL</span><span class="visto-num"></span></div>
+      <div class="visto-topo">
+        <div class="moldura"><img class="foto" alt=""><p class="carimbo" aria-hidden="true">VISTO<br>APROVADO</p></div>
+        <div>
+          <p class="kicker">Você se parece com</p>
+          <h2 id="res-nome"></h2>
+          <p class="titulo"></p>
+          <p class="origem"></p>
+        </div>
+      </div>
+      <div class="em-comum"><p class="rotulo">Em comum com você</p><ul class="chips"></ul></div>
+      <ul class="qualidades"></ul>
+      <p class="historia"></p>
+      <blockquote class="frase"><p></p><cite></cite></blockquote>
+      <p class="gancho"></p>
+      <button class="btn principal" data-acao="ficha">Ver mais sobre essa figura</button>
+      <p class="credito"></p>
+    </article>
+
+    <div class="rara surgir" hidden></div>
+
+    <section class="bloco surgir comparacao">
+      <h3>Você × <span class="nome-fig"></span></h3>
+      <p class="miudo">Quanto cada traço se destaca, de 0 a 5. No seu perfil, o traço mais forte vale 5.</p>
+      <div class="legenda" aria-hidden="true"><span class="leg voce">Você</span><span class="leg fig">Figura</span></div>
+      <div class="barras"></div>
+    </section>
+
+    <section class="bloco surgir">
+      <h3>🏆 Top 3 mais parecidos</h3>
+      <ol class="top3 lista-fig"></ol>
+    </section>
+
+    <section class="bloco surgir">
+      <h3>🧭 Também combinam com você, por área</h3>
+      <ul class="por-categoria lista-fig"></ul>
+    </section>
+
+    <section class="bloco surgir compartilhar">
+      <h3>📣 Compartilhe seu visto</h3>
+      <button class="btn principal" data-acao="imagem">📸 Salvar imagem para stories</button>
+      <div class="redes">
+        <a class="rede whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="rede telegram" target="_blank" rel="noopener">Telegram</a>
+        <a class="rede x" target="_blank" rel="noopener">X</a>
+        <a class="rede facebook" target="_blank" rel="noopener">Facebook</a>
+      </div>
+      <p class="miudo">Instagram e TikTok: salve a imagem e poste nos stories.</p>
+      <button class="btn claro" data-acao="link">🔗 Copiar link do resultado</button>
+      <p class="aviso-copia" role="status" aria-live="polite"></p>
+    </section>
+
+    <div class="acoes">
+      <button class="btn texto" data-acao="como">Como funciona?</button>
+      <button class="btn texto" data-acao="refazer">Refazer o teste</button>
+    </div>
+  </section>
+
+  <section id="tela-como" class="tela" hidden>
+    <div class="papel">
+      <h2>Como funciona</h2>
+      <p>Cada resposta soma pontos em <strong>10 traços</strong>, organizados em três grupos:</p>
+      <ul>
+        <li><strong>Estilo</strong>: Diálogo, Firmeza, Estratégia e Empatia. É o seu jeito de agir.</li>
+        <li><strong>Causa</strong>: Paz, Igualdade e direitos, Liberdade e democracia e Desenvolvimento. É o que mais te move.</li>
+        <li><strong>Caminho</strong>: se você prefere mudar aos poucos ou de uma vez, e se acha que quem resolve é mais o governo ou mais a sociedade.</li>
+      </ul>
+      <p>Cada uma das 36 figuras recebeu uma nota de 0 a 5 em cada traço, com base na história dela. No fim, o teste compara o formato do seu perfil (os traços que mais se destacam em você) com o de cada figura e calcula a porcentagem de parecença.</p>
+      <p>O grupo "Caminho" pesa só 20% no resultado, porque o mais importante é o seu estilo e as suas causas.</p>
+      <p><strong>Todas as figuras são pessoas que defenderam a democracia e a paz, cada uma do seu jeito.</strong> Não existe resultado melhor ou pior.</p>
+      <p class="miudo">O teste é uma atividade educativa, não um diagnóstico. Nada do que você responde sai do seu celular.</p>
+      <button class="btn principal" data-acao="fechar-como">Voltar</button>
+    </div>
+  </section>
+
+  <section id="tela-carregando" class="tela"><p class="carregando">Preparando a viagem…</p></section>
+</main>
+
+<canvas id="confete" aria-hidden="true"></canvas>
+
+<dialog id="ficha" aria-labelledby="ficha-nome">
+  <div class="ficha-conteudo">
+    <button class="fechar" data-acao="fechar-ficha" aria-label="Fechar">×</button>
+    <div class="ficha-topo">
+      <img class="foto" alt="">
+      <div>
+        <h2 id="ficha-nome"></h2>
+        <p class="titulo"></p>
+        <p class="origem"></p>
+      </div>
+    </div>
+    <h3>👤 Quem foi</h3><p class="f-bio"></p>
+    <h3>🕰️ Contexto histórico</h3><p class="f-contexto"></p>
+    <h3>🌍 O que fez no mundo</h3><p class="f-oquefez"></p>
+    <h3>💡 Curiosidades</h3><ul class="f-curiosidades"></ul>
+    <h3>🧭 Por que importa para RI</h3><p class="f-ri"></p>
+    <p class="credito"></p>
+    <button class="btn principal" data-acao="fechar-ficha">Fechar</button>
+  </div>
+</dialog>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
