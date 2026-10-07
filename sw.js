@@ -1,6 +1,6 @@
 // Guarda o site no aparelho para abrir sem internet depois da primeira visita.
 // Ao mudar qualquer arquivo, troque a versão abaixo.
-const VERSAO = 'passaporte-v4';
+const VERSAO = 'passaporte-v5';
 const ARQUIVOS = [
   './', 'index.html', 'css/estilo.css', 'js/app.js', 'js/calculo.js', 'js/config.js',
   'figuras.json', 'perguntas.json', 'manifest.webmanifest',
