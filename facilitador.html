@@ -105,6 +105,9 @@
   let st = { turma: null, manual: {} };
   try { st = { ...st, ...JSON.parse(localStorage.getItem(CHAVE)) }; } catch {}
   const salvar = () => { try { localStorage.setItem(CHAVE, JSON.stringify(st)); } catch {} };
+  // abrir uma turma específica pelo endereço: facilitador.html?turma=CODIGO
+  const turmaUrl = new URLSearchParams(location.search).get('turma')?.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8);
+  if (turmaUrl && turmaUrl !== st.turma) st = { turma: turmaUrl, manual: {} };
   let auto = {};
   const total = (id) => (auto[id] || 0) + (st.manual[id] || 0);
 
