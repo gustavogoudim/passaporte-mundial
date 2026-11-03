@@ -20,7 +20,9 @@ Fonte da verdade do projeto. Toda decisão nova ou alterada é registrada aqui.
 ## Tamanho
 - 36 figuras (resultados possíveis) e 20 perguntas. (Eram 30; 6 acrescentadas em 2026-10-07.)
 
-## Figuras (lista final — 30)
+## Figuras (36)
+Listas originais de 2026-10-07. Quatro nomes foram trocados em 2026-11-03 (ver "Trocas por mais mulheres" abaixo).
+
 **Líderes de Estado (11):** Nelson Mandela, Angela Merkel, Abraham Lincoln, John F. Kennedy, Franklin D. Roosevelt, Jacinda Ardern, Mikhail Gorbachev, Ellen Johnson Sirleaf, Jimmy Carter, Juscelino Kubitschek, Dom Pedro II.
 
 **Diplomacia (8):** Barão do Rio Branco, Rui Barbosa, Joaquim Nabuco, Bertha Lutz, Sérgio Vieira de Mello, Kofi Annan, Eleanor Roosevelt, Princesa Diana (campanha contra minas terrestres).
@@ -30,7 +32,14 @@ Fonte da verdade do projeto. Toda decisão nova ou alterada é registrada aqui.
 **Acrescentadas em 2026-10-07 (6):** Dag Hammarskjöld (Diplomacia), Willy Brandt (Líder), Václav Havel (Líder), Óscar Arias (Líder), André Rebouças (Ativismo), Ralph Bunche (Diplomacia).
 Tentamos usar o catálogo do 12 Axes como fonte, mas a API dele é de uso exclusivo do próprio site, e o catálogo inclui extremos e políticos atuais, o que contraria as premissas. Os nomes acima foram escolhidos por Claude seguindo as premissas.
 
-Totais: Líderes 14, Diplomacia 10, Ativismo 12 · 12 mulheres, 24 homens · 11 brasileiros.
+**Trocas por mais mulheres (2026-11-03, a pedido do facilitador; escolhidas por simulação de 5000 alunos pela menor mudança nos resultados, perda total ~13%):**
+- Willy Brandt → Vijaya Lakshmi Pandit (Diplomacia). Frase "Quanto mais suamos na paz, menos sangramos na guerra" incluída por decisão do facilitador (2026-11-03), mesmo sem origem exata documentada; o crédito diz "atribuída", citada pela ONU em 2010. Exceção à regra de autoria confirmada.
+- Václav Havel → Sophie Scholl (Ativismo). Frase do depoimento à Gestapo, 20/02/1943 (citado por Zoske). Foto: a de família com o irmão Werner (1941), recortada; NÃO usar a foto da Gestapo.
+- Franklin D. Roosevelt → Gro Harlem Brundtland (Líder). Frase é a definição do relatório Nosso Futuro Comum (da comissão, não fala pessoal).
+- André Rebouças → Antonieta de Barros (Ativismo). Frase e fatos conferidos em memoriapolitica.alesc.sc.gov.br. A frase do Rebouças deixou de ser pendência.
+- Avaliadas e descartadas: Mary Robinson (perfil 94,5% igual ao de Eleanor; perda alta), Leymah Gbowee (quase inalcançável), Vigdís Finnbogadóttir, Nísia Floresta, Simone Veil (lei do aborto = tema moral), Bachelet (política recente), Amanpour (jornalista na ativa), Irene Vida Gala (sem material com fonte). Pandit no lugar de Hammarskjöld perdia mais (5,8%) que no de Brandt (3,7%).
+
+Totais: Líderes 12, Diplomacia 11, Ativismo 13 · 16 mulheres, 20 homens · 11 brasileiros.
 
 ### Excluídos de propósito — NÃO sugerir
 Churchill, Thatcher, Reagan, Obama, Mujica, Che Guevara, Aung San Suu Kyi, Oswaldo Aranha, qualquer político brasileiro pós-1985, Neymar, Anitta, Musk, Greta e afins.
@@ -103,6 +112,7 @@ Referência: https://12axes.vercel.app/. Dele aproveitamos só o formato, NÃO o
 - Sem encurtadores de link.
 
 ## Visual e identidade
+- Crédito (2026-10-27): "Atividade de extensão dos alunos de Seminários VIII do curso de Relações Internacionais da PUC Minas", na capa e em "Como funciona".
 - Nome: **Passaporte Mundial**. Subtítulo: "Com qual figura política você se parece?".
 - Tema passaporte; o resultado aparece como carimbo de visto.
 - Cores: azul-noite (fundo com estrelas), âmbar, turquesa e lilás de destaque; cartões em papel claro para leitura. (Tema inicial azul-petróleo/off-white foi achado "chocho" pelo facilitador e trocado em 2026-10-07.)
@@ -167,6 +177,8 @@ Nenhuma. Todas fechadas em 2026-10-07 (6 e 7 decididas por Claude a pedido do fa
 
 ## Histórico de perguntas
 - 2026-10-07: removida "A escola ganhou uma verba extra..." (facilitador não gostou). Entrou "Você ganhou 1 minuto ao vivo num programa visto pelo Brasil inteiro...". Fonte das perguntas: `perguntas.json`.
+- 2026-10-27: p12 ("feira de ciências") reescrita a pedido do facilitador (alternativas estranhas). Virou "projeto da escola para o ano todo". Pontuação mantida.
+- 2026-11-03: p07 ("Qual destas notícias deixaria você mais feliz?") refeita a pedido do facilitador (destoava: era passiva e misturava escalas globais). Virou "Na sua opinião, qual destes seria o tema mais importante para a redação do ENEM?". Pontuação mantida; o recorte de gênero continua na alternativa de igualdade.
 
 ## Estado atual
 - Fase 1 entregue em 2026-10-07. Dados ainda AGUARDANDO REVISÃO do facilitador.
@@ -176,5 +188,4 @@ Nenhuma. Todas fechadas em 2026-10-07 (6 e 7 decididas por Claude a pedido do fa
 - Perguntas e telas implementadas em 2026-10-07.
 - PUBLICADO em 2026-10-07: https://gustavogoudim.github.io/passaporte-mundial/ (repo github.com/gustavogoudim/passaporte-mundial, Pages na branch main). Para atualizar: commit + `git push`; trocar `VERSAO` em `sw.js` a cada mudança.
 - QR code: `qrcode.pdf` (cartaz A4), `qrcode.png`, `qrcode.html`.
-- Frase do Rebouças ("Quem possui a terra possui o homem") marcada para o facilitador decidir: é hoje associada a movimentos de reforma agrária.
 - Zumbi não tem frase (não há falas registradas); o card mostra no lugar a nota sobre o 20 de novembro.

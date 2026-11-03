@@ -1,6 +1,6 @@
 // Guarda o site no aparelho para abrir sem internet depois da primeira visita.
 // Ao mudar qualquer arquivo, troque a versão abaixo.
-const VERSAO = 'passaporte-v7';
+const VERSAO = 'passaporte-v9';
 const ARQUIVOS = [
   './', 'index.html', 'css/estilo.css', 'js/app.js', 'js/calculo.js', 'js/config.js',
   'figuras.json', 'perguntas.json', 'manifest.webmanifest',
@@ -8,16 +8,16 @@ const ARQUIVOS = [
   "fotos/aquino.jpg",
   "fotos/ardern.jpg",
   "fotos/arias.jpg",
-  "fotos/brandt.jpg",
+  "fotos/pandit.jpg",
   "fotos/bunche.jpg",
   "fotos/carter.jpg",
   "fotos/diana.jpg",
   "fotos/eleanor.jpg",
-  "fotos/fdr.jpg",
+  "fotos/brundtland.jpg",
   "fotos/gandhi.jpg",
   "fotos/gorbachev.jpg",
   "fotos/hammarskjold.jpg",
-  "fotos/havel.jpg",
+  "fotos/scholl.jpg",
   "fotos/jk.jpg",
   "fotos/kennedy.jpg",
   "fotos/lincoln.jpg",
@@ -30,7 +30,7 @@ const ARQUIVOS = [
   "fotos/nabuco.jpg",
   "fotos/parks.jpg",
   "fotos/pedro2.jpg",
-  "fotos/reboucas.jpg",
+  "fotos/antonieta.jpg",
   "fotos/riobranco.jpg",
   "fotos/ruibarbosa.jpg",
   "fotos/sirleaf.jpg",

@@ -188,50 +188,50 @@
     }
   },
   {
-    "id": "fdr",
-    "nome": "Franklin D. Roosevelt",
-    "pais": "Estados Unidos",
-    "periodo": "1882–1945",
+    "id": "brundtland",
+    "nome": "Gro Harlem Brundtland",
+    "pais": "Noruega",
+    "periodo": "1939–",
     "categoria": "Líder de Estado",
-    "titulo": "O Reconstrutor",
+    "titulo": "A Guardiã do Futuro",
     "tracos": {
-      "dialogo": 3,
+      "dialogo": 4,
       "firmeza": 4,
       "estrategia": 5,
       "empatia": 3,
       "paz": 2,
       "igualdade": 3,
-      "liberdade": 4,
+      "liberdade": 2,
       "desenvolvimento": 5,
-      "ritmo": 3,
-      "quemResolve": 0
+      "ritmo": 2,
+      "quemResolve": 1
     },
     "card": {
       "qualidades": [
-        "Planeja soluções em grande escala",
-        "Passa confiança em tempos de crise",
-        "Une pessoas diferentes num projeto"
+        "Pensa nas próximas gerações",
+        "Usa a ciência para decidir",
+        "Organiza grandes acordos"
       ],
-      "historia": "Assumiu os EUA no meio da Grande Depressão, quando milhões estavam sem emprego, e criou programas para reerguer o país. Liderou a nação na Segunda Guerra Mundial.",
-      "frase": "A única coisa que devemos temer é o próprio medo.",
-      "fonteFrase": "Primeiro discurso de posse, Washington, 4 mar. 1933",
-      "ganchoRI": "Tema: Grande Depressão e criação da ONU"
+      "historia": "Médica, foi a primeira mulher a governar a Noruega. Presidiu a comissão da ONU que espalhou pelo mundo a ideia de desenvolvimento sustentável e depois dirigiu a Organização Mundial da Saúde.",
+      "frase": "Desenvolvimento sustentável é aquele que atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atender às suas próprias necessidades.",
+      "fonteFrase": "Relatório Nosso Futuro Comum (ONU, 1987), da comissão presidida por ela",
+      "ganchoRI": "Tema: desenvolvimento sustentável e saúde global"
     },
     "ficha": {
-      "bio": "Foi o único presidente dos EUA eleito quatro vezes (1933–1945). Governou mesmo com as pernas paralisadas pela poliomielite.",
-      "contexto": "A crise de 1929 derrubou economias no mundo todo. Nos anos seguintes, regimes autoritários cresceram na Europa e na Ásia e levaram à Segunda Guerra Mundial.",
-      "oQueFez": "Criou o New Deal, com obras públicas, previdência e regras para os bancos. Na guerra, formou a aliança com outros países e propôs o nome e a ideia das \"Nações Unidas\".",
+      "bio": "Médica formada em Oslo, com mestrado em saúde pública nos Estados Unidos. Foi ministra do Meio Ambiente e três vezes primeira-ministra da Noruega, entre 1981 e 1996.",
+      "contexto": "Nos anos 1980, o mundo começava a perceber que o crescimento econômico estava esgotando florestas, rios e o clima. Países ricos e pobres discordavam sobre quem devia pagar a conta.",
+      "oQueFez": "Presidiu a Comissão Mundial sobre Meio Ambiente e Desenvolvimento, da ONU, que publicou em 1987 o relatório Nosso Futuro Comum. Como diretora-geral da OMS (1998–2003), liderou o primeiro tratado mundial de saúde, contra o tabaco.",
       "curiosidades": [
-        "Falava com a população pelo rádio nas \"conversas ao pé da lareira\".",
-        "Foi casado com Eleanor Roosevelt, que também está neste teste."
+        "O relatório da comissão dela abriu caminho para a Rio-92, a grande conferência da ONU sobre meio ambiente realizada no Rio de Janeiro.",
+        "Em 1986, montou um governo em que 8 dos 18 ministros eram mulheres, algo raro no mundo naquela época."
       ],
-      "porQueImportaRI": "Teve papel central no desenho da ordem do pós-guerra: a ONU, o Banco Mundial e o FMI nasceram do planejamento do seu governo com os aliados."
+      "porQueImportaRI": "O desenvolvimento sustentável virou a base da agenda da ONU, dos Objetivos de Desenvolvimento Sustentável (ODS) às conferências do clima."
     },
     "foto": {
-      "url": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
-      "arquivo": "fotos/fdr.jpg",
-      "autor": "Leon Perskie",
-      "licenca": "CC BY 2.0"
+      "url": "https://commons.wikimedia.org/wiki/File:Gro_Harlem_Brundtland_in_2025_(cropped).jpg",
+      "arquivo": "fotos/brundtland.jpg",
+      "autor": "Christophe Licoppe",
+      "licenca": "CC BY 4.0"
     }
   },
   {
@@ -834,7 +834,7 @@
       "oQueFez": "Conduziu as negociações entre países com visões muito diferentes até a aprovação da Declaração Universal dos Direitos Humanos, em 10 de dezembro de 1948.",
       "curiosidades": [
         "A Declaração é um dos documentos mais traduzidos do mundo, com centenas de idiomas.",
-        "Foi casada com Franklin D. Roosevelt, que também está neste teste."
+        "Foi casada com Franklin D. Roosevelt, presidente dos Estados Unidos de 1933 a 1945."
       ],
       "porQueImportaRI": "A Declaração de 1948 é a base de todo o sistema internacional de direitos humanos e de muitas constituições, inclusive a brasileira de 1988."
     },
@@ -1457,97 +1457,97 @@
     }
   },
   {
-    "id": "brandt",
-    "nome": "Willy Brandt",
-    "pais": "Alemanha Ocidental",
-    "periodo": "1913–1992",
-    "categoria": "Líder de Estado",
-    "titulo": "O Construtor de Pontes",
+    "id": "pandit",
+    "nome": "Vijaya Lakshmi Pandit",
+    "pais": "Índia",
+    "periodo": "1900–1990",
+    "categoria": "Diplomacia",
+    "titulo": "A Ponte entre Nações",
     "tracos": {
       "dialogo": 5,
       "firmeza": 3,
       "estrategia": 4,
       "empatia": 3,
-      "paz": 5,
-      "igualdade": 3,
+      "paz": 4,
+      "igualdade": 4,
       "liberdade": 4,
-      "desenvolvimento": 3,
-      "ritmo": 3,
+      "desenvolvimento": 2,
+      "ritmo": 2,
       "quemResolve": 1
     },
     "card": {
       "qualidades": [
-        "Estende a mão ao adversário",
-        "Assume os erros do passado",
-        "Aposta na aproximação"
+        "Conversa com todos os lados",
+        "Firme na defesa da independência",
+        "Abre caminho para outras mulheres"
       ],
-      "historia": "Chanceler da Alemanha Ocidental que buscou aproximação com os países do bloco soviético em plena Guerra Fria. Seu gesto de se ajoelhar em Varsóvia virou símbolo de reconciliação.",
-      "frase": "Agora cresce junto o que pertence junto.",
-      "fonteFrase": "Declaração após a queda do Muro de Berlim, 10 nov. 1989",
-      "ganchoRI": "Tema: Guerra Fria e reconciliação europeia"
+      "historia": "Lutou pela independência da Índia e foi presa por isso. Depois virou diplomata e, em 1953, tornou-se a primeira mulher a presidir a Assembleia Geral da ONU.",
+      "frase": "Quanto mais suamos na paz, menos sangramos na guerra.",
+      "fonteFrase": "Frase atribuída a ela, citada pela ONU em 2010 (origem exata não documentada)",
+      "ganchoRI": "Tema: descolonização e a ONU"
     },
     "ficha": {
-      "bio": "Jornalista, fugiu da Alemanha nazista e viveu exilado na Noruega. Foi prefeito de Berlim Ocidental e chanceler de 1969 a 1974.",
-      "contexto": "Depois da Segunda Guerra, a Alemanha ficou dividida em duas, e a Europa, separada pela \"Cortina de Ferro\". As feridas da guerra com a Polônia e a União Soviética continuavam abertas.",
-      "oQueFez": "Criou a Ostpolitik (\"política para o Leste\"): tratados com a URSS, a Polônia e a Alemanha Oriental que diminuíram a tensão. Depois, presidiu uma comissão sobre a desigualdade entre países ricos e pobres.",
+      "bio": "Nasceu em Allahabad, numa família ligada à luta pela independência. Era irmã de Jawaharlal Nehru, primeiro primeiro-ministro da Índia. Em 1937, foi a primeira mulher indiana a ocupar um cargo de ministra.",
+      "contexto": "Até 1947, a Índia era colônia do Reino Unido. O movimento pela independência, liderado por Gandhi, usava protestos sem violência. Depois da Segunda Guerra, dezenas de países ficaram independentes e entraram na ONU.",
+      "oQueFez": "Foi presa várias vezes pelos britânicos por participar do movimento de independência. Liderou a delegação da Índia na ONU, onde denunciou a discriminação contra indianos na África do Sul, e foi embaixadora em Moscou, Washington e Londres.",
       "curiosidades": [
-        "Em 1970, ajoelhou-se em silêncio diante do memorial do Gueto de Varsóvia, um gesto de pedido de perdão.",
-        "Recebeu o Nobel da Paz em 1971."
+        "Nasceu com o nome Swarup Kumari Nehru e passou a se chamar Vijaya Lakshmi Pandit ao se casar, em 1921.",
+        "Foi embaixadora nas duas superpotências da Guerra Fria: a União Soviética e os Estados Unidos."
       ],
-      "porQueImportaRI": "A Ostpolitik é um exemplo clássico de diplomacia de aproximação: mostra como diminuir a tensão com rivais sem abrir mão dos próprios valores."
+      "porQueImportaRI": "Mostra como os países recém-independentes ganharam voz na ONU e como a luta contra o colonialismo e o racismo entrou na agenda internacional."
     },
     "foto": {
-      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg",
-      "arquivo": "fotos/brandt.jpg",
-      "autor": "Engelbert Reineke",
-      "licenca": "CC BY-SA 3.0 de"
+      "url": "https://commons.wikimedia.org/wiki/File:Vijaya_Lakshmi_Pandit.jpg",
+      "arquivo": "fotos/pandit.jpg",
+      "autor": "Bassano",
+      "licenca": "Public domain"
     }
   },
   {
-    "id": "havel",
-    "nome": "Václav Havel",
-    "pais": "Tchecoslováquia / República Tcheca",
-    "periodo": "1936–2011",
-    "categoria": "Líder de Estado",
-    "titulo": "O Dramaturgo da Liberdade",
+    "id": "scholl",
+    "nome": "Sophie Scholl",
+    "pais": "Alemanha",
+    "periodo": "1921–1943",
+    "categoria": "Ativismo e resistência",
+    "titulo": "A Voz da Consciência",
     "tracos": {
-      "dialogo": 3,
+      "dialogo": 1,
       "firmeza": 5,
       "estrategia": 2,
       "empatia": 3,
       "paz": 3,
       "igualdade": 2,
       "liberdade": 5,
-      "desenvolvimento": 1,
+      "desenvolvimento": 0,
       "ritmo": 4,
       "quemResolve": 5
     },
     "card": {
       "qualidades": [
-        "Fiel à verdade",
-        "Corajoso e criativo",
-        "Acredita na força das pessoas comuns"
+        "Coragem para dizer a verdade",
+        "Fiel aos próprios valores",
+        "Age mesmo quando é difícil"
       ],
-      "historia": "Escritor de peças de teatro que foi preso por defender a liberdade de expressão. Liderou a Revolução de Veludo, que trouxe a democracia sem violência, e virou presidente.",
-      "frase": "A verdade e o amor devem prevalecer sobre a mentira e o ódio.",
-      "fonteFrase": "Lema de Havel durante a Revolução de Veludo, 1989",
-      "ganchoRI": "Tema: Revolução de Veludo e sociedade civil"
+      "historia": "Estudante universitária na Alemanha nazista, fez parte da Rosa Branca, grupo de jovens que espalhava panfletos contra a ditadura de Hitler e a guerra. Foi presa e condenada à morte aos 21 anos.",
+      "frase": "Continuo achando que fiz o melhor que podia fazer pelo meu povo neste momento.",
+      "fonteFrase": "Depoimento à polícia depois de ser presa, 20 fev. 1943",
+      "ganchoRI": "Tema: resistência ao nazismo e direitos humanos"
     },
     "ficha": {
-      "bio": "Dramaturgo tcheco, foi preso várias vezes nos anos 1970 e 1980. Foi o último presidente da Tchecoslováquia (1989–1992) e o primeiro da República Tcheca (1993–2003).",
-      "contexto": "A Tchecoslováquia era governada por um partido único ligado à União Soviética. Em 1968, uma tentativa de abertura, a \"Primavera de Praga\", foi interrompida por tanques.",
-      "oQueFez": "Foi um dos autores da Carta 77, um documento que pedia respeito aos direitos humanos. Em 1989, liderou protestos pacíficos que levaram à primeira eleição livre em mais de 40 anos.",
+      "bio": "Nasceu em Forchtenberg, no sul da Alemanha, e cresceu em Ulm. Em 1942, foi estudar biologia e filosofia na Universidade de Munique, onde o irmão Hans já estudava.",
+      "contexto": "De 1933 a 1945, a Alemanha viveu sob a ditadura nazista de Adolf Hitler. Não havia liberdade de expressão, opositores eram presos e milhões de pessoas, principalmente judeus, foram perseguidas e mortas no Holocausto.",
+      "oQueFez": "Com o irmão e amigos, escreveu e distribuiu panfletos que pediam resistência pacífica ao regime e denunciavam seus crimes. Em 18 de fevereiro de 1943, foi presa ao espalhar panfletos na universidade e foi condenada poucos dias depois.",
       "curiosidades": [
-        "A revolução foi chamada \"de Veludo\" porque aconteceu sem tiros.",
-        "Em 1993, o país se dividiu pacificamente em República Tcheca e Eslováquia."
+        "Um dos panfletos da Rosa Branca foi levado para fora da Alemanha, e aviões dos Aliados jogaram milhões de cópias sobre o país.",
+        "Centenas de escolas na Alemanha levam o nome dela e do irmão: \"Geschwister Scholl\" (irmãos Scholl)."
       ],
-      "porQueImportaRI": "Mostra o poder da sociedade civil nas transições para a democracia e como a Europa Central entrou depois na União Europeia e na OTAN."
+      "porQueImportaRI": "Mostra o papel da sociedade civil diante de ditaduras e ajuda a entender por que, depois da Segunda Guerra, o mundo criou a ONU e a Declaração Universal dos Direitos Humanos."
     },
     "foto": {
-      "url": "https://commons.wikimedia.org/wiki/File:Vaclav_Havel.jpg",
-      "arquivo": "fotos/havel.jpg",
-      "autor": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
-      "licenca": "CC BY-SA 2.0"
+      "url": "https://commons.wikimedia.org/wiki/File:Werner_Scholl_with_Sophie_Scholl.jpg",
+      "arquivo": "fotos/scholl.jpg",
+      "autor": "Hans Scholl (recorte)",
+      "licenca": "Public domain"
     }
   },
   {
@@ -1598,50 +1598,50 @@
     }
   },
   {
-    "id": "reboucas",
-    "nome": "André Rebouças",
+    "id": "antonieta",
+    "nome": "Antonieta de Barros",
     "pais": "Brasil",
-    "periodo": "1838–1898",
+    "periodo": "1901–1952",
     "categoria": "Ativismo e resistência",
-    "titulo": "O Engenheiro da Liberdade",
+    "titulo": "A Mestra dos Caminhos",
     "tracos": {
-      "dialogo": 2,
-      "firmeza": 3,
-      "estrategia": 5,
-      "empatia": 3,
-      "paz": 1,
+      "dialogo": 3,
+      "firmeza": 4,
+      "estrategia": 4,
+      "empatia": 4,
+      "paz": 2,
       "igualdade": 5,
       "liberdade": 3,
-      "desenvolvimento": 5,
-      "ritmo": 4,
+      "desenvolvimento": 4,
+      "ritmo": 2,
       "quemResolve": 3
     },
     "card": {
       "qualidades": [
-        "Planeja soluções concretas",
-        "Une técnica e justiça social",
-        "Persistente contra o preconceito"
+        "Acredita no poder da educação",
+        "Abre portas para quem vem depois",
+        "Persistente diante do preconceito"
       ],
-      "historia": "Engenheiro negro brilhante, construiu docas e ferrovias no Brasil do século 19. Foi um dos líderes da campanha abolicionista e pensou em como dar terra e trabalho aos libertos.",
-      "frase": "Quem possui a terra possui o homem.",
-      "fonteFrase": "Escritos de André Rebouças, 1890",
-      "ganchoRI": "Tema: abolição e desenvolvimento"
+      "historia": "Professora em Florianópolis, abriu um curso para ensinar adultos a ler e escrever. Em 1935, tornou-se a primeira mulher negra a assumir um mandato de deputada no Brasil.",
+      "frase": "Educar é ensinar os outros a viver; é iluminar caminhos alheios.",
+      "fonteFrase": "Discurso na Assembleia de Santa Catarina, na promulgação da lei do Dia do Professor, 1948",
+      "ganchoRI": "Tema: educação como direito humano"
     },
     "ficha": {
-      "bio": "Baiano, filho de um conselheiro do Império, formou-se engenheiro e estudou na Europa. Depois da Proclamação da República, acompanhou Dom Pedro II no exílio.",
-      "contexto": "No Brasil do século 19, a economia dependia do trabalho escravizado e das grandes fazendas. Poucos negros conseguiam estudar e chegar a profissões de prestígio.",
-      "oQueFez": "Projetou obras como as docas do Rio de Janeiro. Ajudou a fundar sociedades abolicionistas e defendeu que a abolição viesse acompanhada de acesso à terra e à educação.",
+      "bio": "Nasceu em Florianópolis em 1901. Formou-se professora, fundou em 1922 um curso de alfabetização e escreveu crônicas em jornais com o nome de Maria da Ilha. Foi deputada estadual em Santa Catarina em 1935–1937 e em 1948–1951.",
+      "contexto": "A escravidão acabou no Brasil em 1888, mas a população negra continuou com pouco acesso à escola. As mulheres só conquistaram o direito de votar e de ser votadas em 1932.",
+      "oQueFez": "Na Assembleia, defendeu a educação para todos e a valorização dos professores. É dela a lei estadual de 1948 que criou o Dia do Professor, em 15 de outubro. Em 1937, foi a primeira mulher a presidir uma sessão de Assembleia Legislativa no Brasil.",
       "curiosidades": [
-        "O Túnel Rebouças, no Rio de Janeiro, e a Avenida Rebouças, em São Paulo, homenageiam ele e o irmão, também engenheiro.",
-        "Era amigo de Joaquim Nabuco, que também está neste teste."
+        "Em 1963, o Dia do Professor criado por ela em Santa Catarina passou a valer para todo o Brasil.",
+        "Em 2023, seu nome foi inscrito no Livro dos Heróis e Heroínas da Pátria."
       ],
-      "porQueImportaRI": "Mostra que o debate sobre a abolição ia além do fim da escravidão: incluía desenvolvimento, terra e inclusão, temas ligados hoje à agenda de desenvolvimento da ONU."
+      "porQueImportaRI": "A educação é um direito humano previsto na Declaração Universal de 1948, o mesmo ano da lei dela, e é um dos Objetivos de Desenvolvimento Sustentável da ONU."
     },
     "foto": {
-      "url": "https://commons.wikimedia.org/wiki/File:Andre_rebou%C3%A7as_00.JPG",
-      "arquivo": "fotos/reboucas.jpg",
-      "autor": "Autor desconhecido",
-      "licenca": "Public domain"
+      "url": "https://commons.wikimedia.org/wiki/File:Antonieta_de_Barros.webp",
+      "arquivo": "fotos/antonieta.jpg",
+      "autor": "Instituto Histórico e Geográfico de Santa Catarina",
+      "licenca": "CC BY-SA 4.0"
     }
   },
   {

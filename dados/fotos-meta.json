@@ -23,11 +23,11 @@
     "autor": "Cecil W. Stoughton",
     "licenca": "Public domain"
   },
-  "fdr": {
-    "url": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
-    "arquivo": "fotos/fdr.jpg",
-    "autor": "Leon Perskie",
-    "licenca": "CC BY 2.0"
+  "brundtland": {
+    "url": "https://commons.wikimedia.org/wiki/File:Gro_Harlem_Brundtland_in_2025_(cropped).jpg",
+    "arquivo": "fotos/brundtland.jpg",
+    "autor": "Christophe Licoppe",
+    "licenca": "CC BY 4.0"
   },
   "ardern": {
     "url": "https://commons.wikimedia.org/wiki/File:New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg",
@@ -185,17 +185,17 @@
     "autor": "Unknown authorUnknown author",
     "licenca": "Public domain"
   },
-  "brandt": {
-    "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg",
-    "arquivo": "fotos/brandt.jpg",
-    "autor": "Engelbert Reineke",
-    "licenca": "CC BY-SA 3.0 de"
+  "pandit": {
+    "url": "https://commons.wikimedia.org/wiki/File:Vijaya_Lakshmi_Pandit.jpg",
+    "arquivo": "fotos/pandit.jpg",
+    "autor": "Bassano",
+    "licenca": "Public domain"
   },
-  "havel": {
-    "url": "https://commons.wikimedia.org/wiki/File:Vaclav_Havel.jpg",
-    "arquivo": "fotos/havel.jpg",
-    "autor": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
-    "licenca": "CC BY-SA 2.0"
+  "scholl": {
+    "url": "https://commons.wikimedia.org/wiki/File:Werner_Scholl_with_Sophie_Scholl.jpg",
+    "arquivo": "fotos/scholl.jpg",
+    "autor": "Hans Scholl (recorte)",
+    "licenca": "Public domain"
   },
   "arias": {
     "url": "https://commons.wikimedia.org/wiki/File:%C3%93scar_Arias_(cropped).jpg",
@@ -203,11 +203,11 @@
     "autor": "MadriCR",
     "licenca": "CC BY-SA 4.0"
   },
-  "reboucas": {
-    "url": "https://commons.wikimedia.org/wiki/File:Andre_rebou%C3%A7as_00.JPG",
-    "arquivo": "fotos/reboucas.jpg",
-    "autor": "Unknown authorUnknown author",
-    "licenca": "Public domain"
+  "antonieta": {
+    "url": "https://commons.wikimedia.org/wiki/File:Antonieta_de_Barros.webp",
+    "arquivo": "fotos/antonieta.jpg",
+    "autor": "Instituto Histórico e Geográfico de Santa Catarina",
+    "licenca": "CC BY-SA 4.0"
   },
   "bunche": {
     "url": "https://commons.wikimedia.org/wiki/File:Ralph_Bunche_1955.jpg",

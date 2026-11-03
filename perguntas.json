@@ -207,31 +207,31 @@
     "id": "p07",
     "foco": "causa",
     "tipo": "cotidiano",
-    "texto": "Qual destas notícias deixaria você mais feliz?",
+    "texto": "Na sua opinião, qual destes seria o tema mais importante para a redação do ENEM?",
     "alternativas": [
       {
-        "texto": "Dois países que estavam em guerra assinaram a paz.",
+        "texto": "Como diminuir a violência entre os jovens.",
         "pontos": {
           "paz": 2,
           "estrategia": 1
         }
       },
       {
-        "texto": "Um povo conseguiu votar livremente pela primeira vez.",
+        "texto": "A participação dos jovens nas decisões do país.",
         "pontos": {
           "liberdade": 2,
           "dialogo": 1
         }
       },
       {
-        "texto": "Acabou a diferença de salário entre homens e mulheres na mesma função.",
+        "texto": "Oportunidades iguais para meninas e meninos no estudo e no trabalho.",
         "pontos": {
           "igualdade": 2,
           "empatia": 1
         }
       },
       {
-        "texto": "Uma vacina nova chegou de graça a todos os países.",
+        "texto": "Como ajudar os jovens a conseguir o primeiro emprego.",
         "pontos": {
           "desenvolvimento": 2,
           "firmeza": 1
@@ -375,31 +375,31 @@
     "id": "p12",
     "foco": "causa",
     "tipo": "cotidiano",
-    "texto": "Você vai apresentar um projeto na feira de ciências. Qual tema escolhe?",
+    "texto": "A escola vai escolher um projeto para o ano todo, e você pode votar. Qual você escolhe?",
     "alternativas": [
       {
-        "texto": "Energia limpa e tecnologia para a cidade.",
+        "texto": "Uma oficina de robótica e programação aberta ao bairro.",
         "pontos": {
           "desenvolvimento": 2,
           "empatia": 1
         }
       },
       {
-        "texto": "Por que alguns jovens têm menos oportunidades que outros.",
+        "texto": "Um cursinho gratuito para quem não pode pagar um preparatório.",
         "pontos": {
           "igualdade": 2,
           "firmeza": 1
         }
       },
       {
-        "texto": "Como diminuir o bullying nas escolas.",
+        "texto": "Rodas de conversa para resolver conflitos e acabar com o bullying.",
         "pontos": {
           "paz": 2,
           "dialogo": 1
         }
       },
       {
-        "texto": "Como dar mais voz aos jovens nas decisões.",
+        "texto": "Um conselho de alunos que vota nas decisões da escola.",
         "pontos": {
           "liberdade": 2,
           "estrategia": 1

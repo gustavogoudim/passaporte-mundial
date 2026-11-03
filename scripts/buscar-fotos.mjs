@@ -5,7 +5,7 @@ import { writeFile, mkdir, readFile } from 'node:fs/promises';
 const UA = 'PassaporteMundial/1.0 (projeto escolar; contato via github)';
 const artigos = {
   mandela: 'Nelson Mandela', merkel: 'Angela Merkel', lincoln: 'Abraham Lincoln',
-  kennedy: 'John F. Kennedy', fdr: 'Franklin D. Roosevelt', ardern: 'Jacinda Ardern',
+  kennedy: 'John F. Kennedy', brundtland: 'Gro Harlem Brundtland', ardern: 'Jacinda Ardern',
   gorbachev: 'Mikhail Gorbachev', sirleaf: 'Ellen Johnson Sirleaf', carter: 'Jimmy Carter',
   jk: 'Juscelino Kubitschek', pedro2: 'Pedro II of Brazil',
   riobranco: 'José Paranhos, Baron of Rio Branco', ruibarbosa: 'Rui Barbosa',
@@ -15,8 +15,8 @@ const artigos = {
   parks: 'Rosa Parks', tutu: 'Desmond Tutu', maathai: 'Wangari Maathai',
   aquino: 'Corazon Aquino', zilda: 'Zilda Arns', tiradentes: 'Tiradentes',
   zumbi: 'Zumbi', tubman: 'Harriet Tubman',
-  hammarskjold: 'Dag Hammarskjöld', brandt: 'Willy Brandt', havel: 'Václav Havel',
-  arias: 'Óscar Arias', reboucas: 'André Rebouças', bunche: 'Ralph Bunche',
+  hammarskjold: 'Dag Hammarskjöld', pandit: 'Vijaya Lakshmi Pandit', scholl: 'Sophie Scholl',
+  arias: 'Óscar Arias', antonieta: 'Antonieta de Barros', bunche: 'Ralph Bunche',
 };
 const override = process.argv.slice(2); // id=File:Nome.jpg para trocar a foto
 
