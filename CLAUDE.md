@@ -171,7 +171,7 @@ Nenhuma. Todas fechadas em 2026-10-07 (6 e 7 decididas por Claude a pedido do fa
 - `index.html`, `css/estilo.css`, `js/app.js`, `js/calculo.js`: o teste.
 - `figuras.json`, `perguntas.json`: os dados (fonte da verdade).
 - `facilitador.html`: contador da turma, mural e roteiro de debate (só no aparelho do facilitador).
-- `sw.js`, `manifest.webmanifest`: funcionamento offline. Ao mudar arquivos, trocar `VERSAO` em `sw.js`.
+- `sw.js`, `manifest.webmanifest`: funcionamento offline. Ao mudar arquivos, trocar `VERSAO` em `sw.js`. Desde 2026-11-03 (v11) o sw.js busca primeiro na rede (fotos vêm da cópia guardada) e só usa a cópia se não houver rede em 4 s; antes era cópia primeiro, e o celular mostrava a versão velha na primeira abertura.
 - `passaporte-offline.html`: gerado por `node scripts/gerar-offline.mjs` (arquivo único com fotos embutidas).
 - Barras do aluno na tela são reescaladas (o traço mais forte vale 5) só para exibição.
 
