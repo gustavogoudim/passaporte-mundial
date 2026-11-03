@@ -321,9 +321,12 @@ async function gerarImagem() {
     g.textAlign = 'right'; g.fillStyle = '#ffb627'; g.font = fonte(900, 42); g.fillText(pct(r.sim), W - 140, y);
     g.textAlign = 'left';
   });
-  g.textAlign = 'center'; g.fillStyle = '#ffffff'; g.font = fonte(800, 40); g.fillText('E você? Faça o teste!', W / 2, 1790);
-  g.fillStyle = '#b9c6da'; g.font = fonte(500, 24);
-  g.fillText(creditoDe(f).slice(0, 90), W / 2, 1860);
+  g.textAlign = 'center'; g.fillStyle = '#ffffff'; g.font = fonte(800, 40); g.fillText('E você? Faça o teste!', W / 2, 1775);
+  g.fillStyle = '#2ec4b6'; g.font = fonte(700, 27);
+  g.fillText('Atividade de extensão dos alunos de Seminários VIII', W / 2, 1830);
+  g.fillText('do curso de Relações Internacionais da PUC Minas', W / 2, 1866);
+  g.fillStyle = '#b9c6da'; g.font = fonte(500, 22);
+  g.fillText(creditoDe(f).slice(0, 90), W / 2, 1902);
 
   const blob = await new Promise((ok) => c.toBlob(ok, 'image/png'));
   const arquivo = new File([blob], `passaporte-${f.id}.png`, { type: 'image/png' });
